@@ -1,21 +1,34 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Layout, Menu } from 'antd';
 
-import Layout from '../components/layout';
-import Image from '../components/image';
-import SEO from '../components/seo';
+import DocumentationSider from '../components/documentation-sider';
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+const { Header, Content, Footer } = Layout;
+const { Item } = Menu;
+
+const DocumentationPage = () => (
+  <Layout style={{ background: '#fff' }}>
+    <Header style={{ background: '#fff' }}>
+      <div className="logo" />
+      <Menu
+        theme="light"
+        mode="horizontal"
+        defaultSelectedKeys={['documentation']}
+        style={{ lineHeight: '64px' }}
+      >
+        <Item key="documentation">Documentation</Item>
+        <Item key="maps">Maps</Item>
+        <Item key="about">About</Item>
+      </Menu>
+    </Header>
+    <Layout style={{ padding: '24px 0', background: '#fff' }}>
+      <DocumentationSider node={{}} />
+      <Content style={{ padding: '0 24px', minHeight: 280 }} />
+    </Layout>
+    <Footer style={{ textAlign: 'center', background: '#fff' }}>
+      Created by REACH Initiative
+    </Footer>
   </Layout>
 );
 
-export default IndexPage;
+export default DocumentationPage;

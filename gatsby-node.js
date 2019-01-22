@@ -1,7 +1,30 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const path = require('path');
 
-// You can delete this file if you're not using it
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
+
+  const documentationTemplate = path.resolve(`src/templates/documentation.js`);
+
+  return graphql(`
+    {
+      allDocumentationMatrixCsv {
+        edges {
+          node {
+            path
+          }
+        }
+      }
+    }
+  `).then(result => {
+    if (result.errors) {
+      return Promise.reject(result.errors);
+    }
+
+    result.data.allDocumentationMatrixCsv.edges.forEach(({ node }) => {
+      createPage({
+        path: node.path,
+        component: documentationTemplate,
+      });
+    });
+  });
+};
