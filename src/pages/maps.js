@@ -8,9 +8,9 @@ const { Content, Footer } = Layout;
 class DocumentationPage extends Component {
   componentDidMount() {
     if (typeof window !== 'undefined') {
-      const height = window.innerHeight - 200;
+      const height = window.innerHeight - 157;
       const options = {
-        height: height,
+        height: height > 900 ? 900 : height,
         width: '100%',
       };
       import('../../static/tableau-2.2.2.min.js').then(() => {
@@ -26,7 +26,7 @@ class DocumentationPage extends Component {
     return (
       <Layout style={{ background: '#fff' }}>
         <PageHeader selected="maps" />
-        <Layout style={{ padding: '24px 0', background: '#fff' }}>
+        <Layout style={{ background: '#fff' }}>
           <Content style={{ padding: '0 24px', minHeight: 280 }}>
             <Row type="flex" justify="center">
               <div

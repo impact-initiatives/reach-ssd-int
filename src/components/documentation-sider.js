@@ -1,27 +1,36 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { Layout, Menu } from 'antd';
+import styles from './documentation.module.css';
 
 const { Sider } = Layout;
 const { SubMenu, Item, ItemGroup } = Menu;
 
 const DocumentationSider = ({ node }) => (
-  <Sider width={300} style={{ background: '#fff' }}>
+  <Sider width="100%" className={styles.sider} style={{ background: '#fff' }}>
     <Menu
+      className={styles.sider}
       mode="inline"
-      defaultOpenKeys={[node.menu]}
+      defaultOpenKeys={[
+        'foodAccess',
+        'livelihoods',
+        'wash',
+        'health',
+        'nutrition',
+        'mortality',
+      ]}
       defaultSelectedKeys={[node.key]}
       style={{ height: '100%' }}
     >
       <SubMenu key="foodAccess" title={<span>A.1. Food Access</span>}>
         <Item key="hhs">
-          <Link to="/documentation/hhs/">Household Hunger Score</Link>
+          <Link to="/documentation/hhs/">Household Hunger</Link>
         </Item>
         <Item key="fcs">
-          <Link to="/documentation/fcs/">Food Consumption Score</Link>
+          <Link to="/documentation/fcs/">Food Consumption</Link>
         </Item>
         <Item key="hdds">
-          <Link to="/documentation/hdds/">Household Diet Diversity Score</Link>
+          <Link to="/documentation/hdds/">Household Diet Diversity</Link>
         </Item>
         <Item key="hunger-shock">
           <Link to="/documentation/hunger-shock/">Hunger Shock</Link>
@@ -31,6 +40,11 @@ const DocumentationSider = ({ node }) => (
         </Item>
         <Item key="wild-food-meals">
           <Link to="/documentation/wild-food-meals/">Wild Food Meals</Link>
+        </Item>
+        <Item key="food-no-access">
+          <Link to="/documentation/food-no-access/">
+            Inadequate Food Access
+          </Link>
         </Item>
       </SubMenu>
       <SubMenu key="livelihoods" title={<span>A.2. Livelihoods</span>}>
@@ -103,13 +117,13 @@ const DocumentationSider = ({ node }) => (
         </ItemGroup>
         <ItemGroup key="Coping" title={<span>A.2.e. Coping</span>}>
           <Item key="lcs">
-            <Link to="/documentation/lcs/">Livelihood Coping Strategies</Link>
+            <Link to="/documentation/lcs/">Livelihood Coping</Link>
           </Item>
         </ItemGroup>
       </SubMenu>
       <SubMenu key="wash" title={<span>B. WASH</span>}>
         <Item key="ctsw">
-          <Link to="/documentation/ctsw/">Clean, Timely and Safe Water</Link>
+          <Link to="/documentation/ctsw/">Clean Water</Link>
         </Item>
         <Item key="open-defecation">
           <Link to="/documentation/open-defecation/">Open Defecation</Link>
