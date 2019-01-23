@@ -1,27 +1,15 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Layout, Menu, Table } from 'antd';
+import { Layout, Table } from 'antd';
 
 import DocumentationSider from '../components/documentation-sider';
+import PageHeader from '../components/page-header';
 
-const { Header, Content, Footer } = Layout;
-const { Item } = Menu;
+const { Content, Footer } = Layout;
 
 const DocumentationPage = ({ data: { documentationMatrixCsv: node } }) => (
   <Layout style={{ background: '#fff' }}>
-    <Header style={{ background: '#fff' }}>
-      <div className="logo" />
-      <Menu
-        theme="light"
-        mode="horizontal"
-        defaultSelectedKeys={['documentation']}
-        style={{ lineHeight: '64px' }}
-      >
-        <Item key="documentation">Documentation</Item>
-        <Item key="maps">Maps</Item>
-        <Item key="about">About</Item>
-      </Menu>
-    </Header>
+    <PageHeader selected="documentation" />
     <Layout style={{ padding: '24px 0', background: '#fff' }}>
       <DocumentationSider node={node} />
       <Content style={{ padding: '0 24px', minHeight: 280 }}>

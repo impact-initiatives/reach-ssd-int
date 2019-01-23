@@ -23,14 +23,12 @@
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sharp": "^2.0.17",
     "gatsby-source-filesystem": "^2.0.16",
-    "gatsby-source-strapi": "^0.0.6",
     "gatsby-transformer-csv": "^2.0.6",
     "gatsby-transformer-sharp": "^2.1.10",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-helmet": "^5.2.0",
-    "strapi-sdk-javascript": "^0.3.1"
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -38,7 +36,7 @@
     "babel-plugin-import": "^1.11.0",
     "eslint": "^5.12.1",
     "eslint-plugin-jsx-a11y": "^6.1.2",
-    "prettier": "^1.16.0"
+    "prettier": "^1.16.1"
   },
   "keywords": [
     "gatsby"
