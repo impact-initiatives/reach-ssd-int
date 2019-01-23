@@ -76,7 +76,6 @@ const DocumentationPage = ({ data: { documentationMatrixCsv: node } }) => (
               ]}
               pagination={false}
             />
-            />
           </Content>
           <Footer style={{ textAlign: 'center', background: '#fff' }}>
             Created by REACH Initiative
