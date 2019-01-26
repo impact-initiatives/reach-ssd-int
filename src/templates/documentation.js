@@ -6,6 +6,7 @@ import PageHeader from '../components/page-header';
 import PageFooter from '../components/page-footer';
 import IndicatorContent from '../components/indicator-content';
 import DecisionTree from '../components/decision-tree';
+import BreadcrumbNavigation from '../components/breadcrumb-navigation';
 
 const { Content } = Layout;
 
@@ -17,6 +18,8 @@ const DocumentationPage = ({ data: { documentationMatrixCsv: node } }) => (
         <div className={`decision-tree-page ${node.code} ${node.key}`}>
           <DecisionTree />
         </div>
+        <br />
+        <BreadcrumbNavigation node={node} />
         <br />
         <IndicatorContent node={node} />
       </Content>
@@ -31,6 +34,13 @@ export const query = graphql`
       path
       key
       code
+      breadcrumbPath1
+      breadcrumbPath2
+      breadcrumbPath3
+      breadcrumbName1
+      breadcrumbName2
+      breadcrumbName3
+      name
       indicator
       highReliability
       lowReliability
