@@ -5,7 +5,7 @@ import PageHeader from '../components/page-header';
 
 const { Content, Footer } = Layout;
 
-class DocumentationPage extends Component {
+class MapsPage extends Component {
   componentDidMount() {
     if (typeof window !== 'undefined') {
       const height = window.innerHeight - 157;
@@ -44,4 +44,4 @@ class DocumentationPage extends Component {
   }
 }
 
-export default DocumentationPage;
+export default MapsPage;

@@ -14,7 +14,9 @@ const DocumentationPage = ({ data: { documentationMatrixCsv: node } }) => (
     <PageHeader selected="documentation" />
     <Layout style={{ background: '#fff' }}>
       <Content style={{ padding: '0 24px', maxWidth: 992, margin: 'auto' }}>
-        <DecisionTree path={node.path} />
+        <div className={`decision-tree-page ${node.code} ${node.key}`}>
+          <DecisionTree />
+        </div>
         <br />
         <IndicatorContent node={node} />
       </Content>

@@ -2817,7 +2817,7 @@ const DecisionTreeLowReliability = () => (
         </text>
       </switch>
     </a>
-    <a xlinkHref="/documentation/nutrition/new-admission-per-site/">
+    <a xlinkHref="/documentation/nutrition/new-admissions-per-site/">
       <rect
         x={1441}
         y={631}

@@ -1,7 +1,458 @@
-rect:hover {
+a[*|href^='/documentation/']:hover > rect {
   opacity: 0.5;
 }
 
 switch * {
   pointer-events: none;
+}
+
+.decision-tree-page a[*|href^='/documentation/'] {
+  opacity: 0.5;
+}
+
+.decision-tree-page a[*|href='/documentation/'] {
+  opacity: 1;
+}
+
+.a-1 a[*|href='/documentation/fsl/'],
+.a-1 a[*|href='/documentation/fsl/food-access/'] {
+  opacity: 1;
+}
+
+.a-2-a a[*|href='/documentation/fsl/'],
+.a-2-a a[*|href='/documentation/fsl/livelihoods/'],
+.a-2-a a[*|href='/documentation/fsl/livelihoods/agriculture/'] {
+  opacity: 1;
+}
+
+.a-2-b a[*|href='/documentation/fsl/'],
+.a-2-b a[*|href='/documentation/fsl/livelihoods/'],
+.a-2-b a[*|href='/documentation/fsl/livelihoods/livestock/'] {
+  opacity: 1;
+}
+
+.a-2-c a[*|href='/documentation/fsl/'],
+.a-2-c a[*|href='/documentation/fsl/livelihoods/'],
+.a-2-c a[*|href='/documentation/fsl/livelihoods/markets/'] {
+  opacity: 1;
+}
+
+.a-2-d a[*|href='/documentation/fsl/'],
+.a-2-d a[*|href='/documentation/fsl/livelihoods/'],
+.a-2-d a[*|href='/documentation/fsl/livelihoods/climate/'] {
+  opacity: 1;
+}
+
+.a-2-e a[*|href='/documentation/fsl/'],
+.a-2-e a[*|href='/documentation/fsl/livelihoods/'],
+.a-2-e a[*|href='/documentation/fsl/livelihoods/coping/'] {
+  opacity: 1;
+}
+
+.b a[*|href='/documentation/wash/'] {
+  opacity: 1;
+}
+
+.c a[*|href='/documentation/health/'] {
+  opacity: 1;
+}
+
+.d a[*|href='/documentation/nutrition/'] {
+  opacity: 1;
+}
+
+.e a[*|href='/documentation/mortality/'] {
+  opacity: 1;
+}
+
+.a-1-hunger-severity-shock
+  a[*|href='/documentation/fsl/food-access/hunger-severity-shock/']:hover
+  > rect,
+.a-1-hunger-severity-shock
+  a[*|href='/documentation/fsl/food-access/hunger-severity-shock/'] {
+  opacity: 1;
+}
+
+.a-1-wild-foods-making-people-sick
+  a[*|href='/documentation/fsl/food-access/wild-foods-making-people-sick/']:hover
+  > rect,
+.a-1-wild-foods-making-people-sick
+  a[*|href='/documentation/fsl/food-access/wild-foods-making-people-sick/'] {
+  opacity: 1;
+}
+
+.a-1-wild-foods-in-main-meal
+  a[*|href='/documentation/fsl/food-access/wild-foods-in-main-meal/']:hover
+  > rect,
+.a-1-wild-foods-in-main-meal
+  a[*|href='/documentation/fsl/food-access/wild-foods-in-main-meal/'] {
+  opacity: 1;
+}
+
+.a-1-household-hunger-score
+  a[*|href='/documentation/fsl/food-access/household-hunger-score/']:hover
+  > rect,
+.a-1-household-hunger-score
+  a[*|href='/documentation/fsl/food-access/household-hunger-score/'] {
+  opacity: 1;
+}
+
+.a-1-food-consumption-score
+  a[*|href='/documentation/fsl/food-access/food-consumption-score/']:hover
+  > rect,
+.a-1-food-consumption-score
+  a[*|href='/documentation/fsl/food-access/food-consumption-score/'] {
+  opacity: 1;
+}
+
+.a-1-household-diet-diversity-score
+  a[*|href='/documentation/fsl/food-access/household-diet-diversity-score/']:hover
+  > rect,
+.a-1-household-diet-diversity-score
+  a[*|href='/documentation/fsl/food-access/household-diet-diversity-score/'] {
+  opacity: 1;
+}
+
+.a-1-inadequate-access-to-food
+  a[*|href='/documentation/fsl/food-access/inadequate-access-to-food/']:hover
+  > rect,
+.a-1-inadequate-access-to-food
+  a[*|href='/documentation/fsl/food-access/inadequate-access-to-food/'] {
+  opacity: 1;
+}
+
+.a-1-unsustainable-food-source
+  a[*|href='/documentation/fsl/food-access/unsustainable-food-source/']:hover
+  > rect,
+.a-1-unsustainable-food-source
+  a[*|href='/documentation/fsl/food-access/unsustainable-food-source/'] {
+  opacity: 1;
+}
+
+.a-2-a-access-to-land-inputs
+  a[*|href='/documentation/fsl/livelihoods/agriculture/access-to-land-inputs/']:hover
+  > rect,
+.a-2-a-access-to-land-inputs
+  a[*|href='/documentation/fsl/livelihoods/agriculture/access-to-land-inputs/'] {
+  opacity: 1;
+}
+
+.a-2-a-fall-army-worm
+  a[*|href='/documentation/fsl/livelihoods/agriculture/fall-army-worm/']:hover
+  > rect,
+.a-2-a-fall-army-worm
+  a[*|href='/documentation/fsl/livelihoods/agriculture/fall-army-worm/'] {
+  opacity: 1;
+}
+
+.a-2-a-crop-production
+  a[*|href='/documentation/fsl/livelihoods/agriculture/crop-production/']:hover
+  > rect,
+.a-2-a-crop-production
+  a[*|href='/documentation/fsl/livelihoods/agriculture/crop-production/'] {
+  opacity: 1;
+}
+
+.a-2-b-access-to-livestock
+  a[*|href='/documentation/fsl/livelihoods/livestock/access-to-livestock/']:hover
+  > rect,
+.a-2-b-access-to-livestock
+  a[*|href='/documentation/fsl/livelihoods/livestock/access-to-livestock/'] {
+  opacity: 1;
+}
+
+.a-2-b-livestock-disease-shock
+  a[*|href='/documentation/fsl/livelihoods/livestock/livestock-disease-shock/']:hover
+  > rect,
+.a-2-b-livestock-disease-shock
+  a[*|href='/documentation/fsl/livelihoods/livestock/livestock-disease-shock/'] {
+  opacity: 1;
+}
+
+.a-2-b-livestock-disease-fao
+  a[*|href='/documentation/fsl/livelihoods/livestock/livestock-disease-fao/']:hover
+  > rect,
+.a-2-b-livestock-disease-fao
+  a[*|href='/documentation/fsl/livelihoods/livestock/livestock-disease-fao/'] {
+  opacity: 1;
+}
+
+.a-2-b-livestock-disease-aok
+  a[*|href='/documentation/fsl/livelihoods/livestock/livestock-disease-aok/']:hover
+  > rect,
+.a-2-b-livestock-disease-aok
+  a[*|href='/documentation/fsl/livelihoods/livestock/livestock-disease-aok/'] {
+  opacity: 1;
+}
+
+.a-2-c-access-to-markets
+  a[*|href='/documentation/fsl/livelihoods/markets/access-to-markets/']:hover
+  > rect,
+.a-2-c-access-to-markets
+  a[*|href='/documentation/fsl/livelihoods/markets/access-to-markets/'] {
+  opacity: 1;
+}
+
+.a-2-c-cereal-price-shock
+  a[*|href='/documentation/fsl/livelihoods/markets/cereal-price-shock/']:hover
+  > rect,
+.a-2-c-cereal-price-shock
+  a[*|href='/documentation/fsl/livelihoods/markets/cereal-price-shock/'] {
+  opacity: 1;
+}
+
+.a-2-c-sorghum-prices
+  a[*|href='/documentation/fsl/livelihoods/markets/sorghum-prices/']:hover
+  > rect,
+.a-2-c-sorghum-prices
+  a[*|href='/documentation/fsl/livelihoods/markets/sorghum-prices/'] {
+  opacity: 1;
+}
+
+.a-2-c-field-bean-prices
+  a[*|href='/documentation/fsl/livelihoods/markets/field-bean-prices/']:hover
+  > rect,
+.a-2-c-field-bean-prices
+  a[*|href='/documentation/fsl/livelihoods/markets/field-bean-prices/'] {
+  opacity: 1;
+}
+
+.a-2-c-terms-of-trade-goat-to-sorghum
+  a[*|href='/documentation/fsl/livelihoods/markets/terms-of-trade-goat-to-sorghum/']:hover
+  > rect,
+.a-2-c-terms-of-trade-goat-to-sorghum
+  a[*|href='/documentation/fsl/livelihoods/markets/terms-of-trade-goat-to-sorghum/'] {
+  opacity: 1;
+}
+
+.a-2-c-terms-of-trade-wage-to-sorghum
+  a[*|href='/documentation/fsl/livelihoods/markets/terms-of-trade-wage-to-sorghum/']:hover
+  > rect,
+.a-2-c-terms-of-trade-wage-to-sorghum
+  a[*|href='/documentation/fsl/livelihoods/markets/terms-of-trade-wage-to-sorghum/'] {
+  opacity: 1;
+}
+
+.a-2-d-live-green-vegetation-ndvi
+  a[*|href='/documentation/fsl/livelihoods/climate/live-green-vegetation-ndvi/']:hover
+  > rect,
+.a-2-d-live-green-vegetation-ndvi
+  a[*|href='/documentation/fsl/livelihoods/climate/live-green-vegetation-ndvi/'] {
+  opacity: 1;
+}
+
+.a-2-d-rainfall
+  a[*|href='/documentation/fsl/livelihoods/climate/rainfall/']:hover
+  > rect,
+.a-2-d-rainfall
+  a[*|href='/documentation/fsl/livelihoods/climate/rainfall/'] {
+  opacity: 1;
+}
+
+.a-2-e-livelihood-coping-strategies
+  a[*|href='/documentation/fsl/livelihoods/coping/livelihood-coping-strategies/']:hover
+  > rect,
+.a-2-e-livelihood-coping-strategies
+  a[*|href='/documentation/fsl/livelihoods/coping/livelihood-coping-strategies/'] {
+  opacity: 1;
+}
+
+.b-clean-timely-water-household
+  a[*|href='/documentation/wash/clean-timely-water-household/']:hover
+  > rect,
+.b-clean-timely-water-household
+  a[*|href='/documentation/wash/clean-timely-water-household/'] {
+  opacity: 1;
+}
+
+.b-clean-timely-water-settlement
+  a[*|href='/documentation/wash/clean-timely-water-settlement/']:hover
+  > rect,
+.b-clean-timely-water-settlement
+  a[*|href='/documentation/wash/clean-timely-water-settlement/'] {
+  opacity: 1;
+}
+
+.b-open-defecation-household
+  a[*|href='/documentation/wash/open-defecation-household/']:hover
+  > rect,
+.b-open-defecation-household
+  a[*|href='/documentation/wash/open-defecation-household/'] {
+  opacity: 1;
+}
+
+.b-open-defecation-settlement
+  a[*|href='/documentation/wash/open-defecation-settlement/']:hover
+  > rect,
+.b-open-defecation-settlement
+  a[*|href='/documentation/wash/open-defecation-settlement/'] {
+  opacity: 1;
+}
+
+.b-rainfall
+  a[*|href='/documentation/wash/rainfall/']:hover
+  > rect,
+.b-rainfall
+  a[*|href='/documentation/wash/rainfall/'] {
+  opacity: 1;
+}
+
+.b-acute-watery-diarrhoea
+  a[*|href='/documentation/wash/acute-watery-diarrhoea/']:hover
+  > rect,
+.b-acute-watery-diarrhoea
+  a[*|href='/documentation/wash/acute-watery-diarrhoea/'] {
+  opacity: 1;
+}
+
+.b-cholera
+  a[*|href='/documentation/wash/cholera/']:hover
+  > rect,
+.b-cholera
+  a[*|href='/documentation/wash/cholera/'] {
+  opacity: 1;
+}
+
+.b-malaria
+  a[*|href='/documentation/wash/malaria/']:hover
+  > rect,
+.b-malaria
+  a[*|href='/documentation/wash/malaria/'] {
+  opacity: 1;
+}
+
+.c-measles
+  a[*|href='/documentation/health/measles/']:hover
+  > rect,
+.c-measles
+  a[*|href='/documentation/health/measles/'] {
+  opacity: 1;
+}
+
+.c-ebola
+  a[*|href='/documentation/health/ebola/']:hover
+  > rect,
+.c-ebola
+  a[*|href='/documentation/health/ebola/'] {
+  opacity: 1;
+}
+
+.c-acute-watery-diarrhoea
+  a[*|href='/documentation/health/acute-watery-diarrhoea/']:hover
+  > rect,
+.c-acute-watery-diarrhoea
+  a[*|href='/documentation/health/acute-watery-diarrhoea/'] {
+  opacity: 1;
+}
+
+.c-cholera
+  a[*|href='/documentation/health/cholera/']:hover
+  > rect,
+.c-cholera
+  a[*|href='/documentation/health/cholera/'] {
+  opacity: 1;
+}
+
+.c-malaria
+  a[*|href='/documentation/health/malaria/']:hover
+  > rect,
+.c-malaria
+  a[*|href='/documentation/health/malaria/'] {
+  opacity: 1;
+}
+
+.d-global-acute-malnutrition-whz
+  a[*|href='/documentation/nutrition/global-acute-malnutrition-whz/']:hover
+  > rect,
+.d-global-acute-malnutrition-whz
+  a[*|href='/documentation/nutrition/global-acute-malnutrition-whz/'] {
+  opacity: 1;
+}
+
+.d-severe-acute-malnutrition-whz
+  a[*|href='/documentation/nutrition/severe-acute-malnutrition-whz/']:hover
+  > rect,
+.d-severe-acute-malnutrition-whz
+  a[*|href='/documentation/nutrition/severe-acute-malnutrition-whz/'] {
+  opacity: 1;
+}
+
+.d-mid-upper-arm-circumference
+  a[*|href='/documentation/nutrition/mid-upper-arm-circumference/']:hover
+  > rect,
+.d-mid-upper-arm-circumference
+  a[*|href='/documentation/nutrition/mid-upper-arm-circumference/'] {
+  opacity: 1;
+}
+
+.d-new-admissions-3-year
+  a[*|href='/documentation/nutrition/new-admissions-3-year/']:hover
+  > rect,
+.d-new-admissions-3-year
+  a[*|href='/documentation/nutrition/new-admissions-3-year/'] {
+  opacity: 1;
+}
+
+.d-new-admissions-3-month
+  a[*|href='/documentation/nutrition/new-admissions-3-month/']:hover
+  > rect,
+.d-new-admissions-3-month
+  a[*|href='/documentation/nutrition/new-admissions-3-month/'] {
+  opacity: 1;
+}
+
+.d-new-admissions-3-month-trend
+  a[*|href='/documentation/nutrition/new-admissions-3-month-trend/']:hover
+  > rect,
+.d-new-admissions-3-month-trend
+  a[*|href='/documentation/nutrition/new-admissions-3-month-trend/'] {
+  opacity: 1;
+}
+
+.d-new-admissions-per-site
+  a[*|href='/documentation/nutrition/new-admissions-per-site/']:hover
+  > rect,
+.d-new-admissions-per-site
+  a[*|href='/documentation/nutrition/new-admissions-per-site/'] {
+  opacity: 1;
+}
+
+.d-new-admissions-per-site
+  a[*|href='/documentation/nutrition/new-admissions-per-site/']:hover
+  > rect,
+.d-new-admissions-per-site
+  a[*|href='/documentation/nutrition/new-admissions-per-site/'] {
+  opacity: 1;
+}
+
+.d-malnourished-children-elderly
+  a[*|href='/documentation/nutrition/malnourished-children-elderly/']:hover
+  > rect,
+.d-malnourished-children-elderly
+  a[*|href='/documentation/nutrition/malnourished-children-elderly/'] {
+  opacity: 1;
+}
+
+.e-crude-death-rate
+  a[*|href='/documentation/mortality/crude-death-rate/']:hover
+  > rect,
+.e-crude-death-rate
+  a[*|href='/documentation/mortality/crude-death-rate/'] {
+  opacity: 1;
+}
+
+.e-under-five-crude-death-rate
+  a[*|href='/documentation/mortality/under-five-crude-death-rate/']:hover
+  > rect,
+.e-under-five-crude-death-rate
+  a[*|href='/documentation/mortality/under-five-crude-death-rate/'] {
+  opacity: 1;
+}
+
+.e-mortality-increase
+  a[*|href='/documentation/mortality/mortality-increase/']:hover
+  > rect,
+.e-mortality-increase
+  a[*|href='/documentation/mortality/mortality-increase/'] {
+  opacity: 1;
 }
