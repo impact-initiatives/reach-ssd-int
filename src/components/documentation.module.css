@@ -1,9 +1,0 @@
-.sider {
-  overflow: hidden;
-  height: 100vh;
-}
-
-.sider:hover {
-  overflow-y: auto;
-}
-

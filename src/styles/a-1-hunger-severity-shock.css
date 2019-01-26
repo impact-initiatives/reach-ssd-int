@@ -1,0 +1,24 @@
+a {
+  opacity: 0.5;
+}
+
+a[*|href="/documentation/fsl/food-access/hunger-severity-shock/"] {
+  opacity: 1;
+}
+
+a[*|href="/documentation/fsl/food-access/hunger-severity-shock/"] > rect {
+  stroke: black;
+  stroke-width: 5;
+}
+
+a[*|href="/documentation/fsl/food-access/"] {
+  opacity: 1;
+}
+
+a[*|href="/documentation/fsl/"] {
+  opacity: 1;
+}
+
+a[*|href="/documentation/"] {
+  opacity: 1;
+}

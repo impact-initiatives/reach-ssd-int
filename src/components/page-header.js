@@ -22,7 +22,7 @@ const PageHeader = ({ selected }) => (
       style={{ lineHeight: '64px', border: 'none' }}
     >
       <Item key="documentation">
-        <Link to="/documentation/hhs/">Documentation</Link>
+        <Link to="/documentation/">Documentation</Link>
       </Item>
       <Item key="maps">
         <Link to="/maps/">Maps</Link>

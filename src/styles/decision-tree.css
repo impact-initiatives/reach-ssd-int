@@ -1,0 +1,7 @@
+rect:hover {
+  opacity: 0.5;
+}
+
+switch * {
+  pointer-events: none;
+}

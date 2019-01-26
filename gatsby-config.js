@@ -22,6 +22,7 @@ module.exports = {
     },
     `gatsby-transformer-csv`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-catch-links`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

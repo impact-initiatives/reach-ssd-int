@@ -1,1 +1,4 @@
 public/
+src/scripts/
+src/components/decision-tree-high-reliability.js
+src/components/decision-tree-low-reliability.js

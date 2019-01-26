@@ -13,7 +13,7 @@ class DocumentationPage extends Component {
         height: height > 900 ? 900 : height,
         width: '100%',
       };
-      import('../../static/tableau-2.2.2.min.js').then(() => {
+      import('../scripts/tableau-2.2.2.min.js').then(() => {
         const vizUrl =
           'https://public.tableau.com/views/REACH_SSD_INT_Jan2019/INT';
         const vizContainer = this.vizContainer;
