@@ -49,7 +49,6 @@ export const query = graphql`
       breadcrumbPath2
       breadcrumbName1
       breadcrumbName2
-      breadcrumbName3
       name
       title
       reliability
