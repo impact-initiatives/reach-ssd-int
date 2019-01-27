@@ -4,13 +4,13 @@ import { Layout } from 'antd';
 
 import PageHeader from '../components/page-header';
 import PageFooter from '../components/page-footer';
-import IndicatorContent from '../components/indicator-content';
+import GroupingContent from '../components/grouping-content';
 import DecisionTree from '../components/decision-tree';
 import BreadcrumbNavigation from '../components/breadcrumb-navigation';
 
 const { Content } = Layout;
 
-const DocumentationPage = ({ data: { documentationMatrixCsv: node } }) => (
+const DocumentationPage = ({ data: { groupingMatrixCsv: node } }) => (
   <Layout style={{ background: '#fff' }}>
     <PageHeader selected="documentation" />
     <Layout style={{ background: '#fff' }}>
@@ -32,7 +32,7 @@ const DocumentationPage = ({ data: { documentationMatrixCsv: node } }) => (
         <br />
         <BreadcrumbNavigation node={node} />
         <br />
-        <IndicatorContent node={node} />
+        <GroupingContent node={node} />
       </Content>
       <PageFooter />
     </Layout>
@@ -41,13 +41,12 @@ const DocumentationPage = ({ data: { documentationMatrixCsv: node } }) => (
 
 export const query = graphql`
   query($path: String!) {
-    documentationMatrixCsv(path: { eq: $path }) {
+    groupingMatrixCsv(path: { eq: $path }) {
       path
       className1
       className2
       breadcrumbPath1
       breadcrumbPath2
-      breadcrumbPath3
       breadcrumbName1
       breadcrumbName2
       breadcrumbName3
@@ -55,19 +54,18 @@ export const query = graphql`
       title
       reliability
       description
-      options
-      rational
-      levelOfAnalysis
-      sources
-      timeliness
-      tableHeader
-      emergency
-      alert
-      warning
-      stressed
-      notTriggered
-      reference
-      link
+      requirementHigh
+      requirementLow
+      emergencyHigh
+      emergencyLow
+      alertHigh
+      alertLow
+      warningHigh
+      warningLow
+      stressedHigh
+      stressedLow
+      notTriggeredHigh
+      notTriggeredLow
     }
   }
 `;

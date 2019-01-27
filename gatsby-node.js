@@ -1,11 +1,7 @@
 const path = require('path');
 
-exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions;
-
-  const documentationTemplate = path.resolve(`src/templates/documentation.js`);
-
-  return graphql(`
+exports.createPages = ({ graphql, actions: { createPage } }) =>
+  graphql(`
     {
       allDocumentationMatrixCsv {
         edges {
@@ -14,17 +10,28 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
+      allGroupingMatrixCsv {
+        edges {
+          node {
+            path
+          }
+        }
+      }
     }
-  `).then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors);
+  `).then(({ errors, data }) => {
+    if (errors) {
+      return Promise.reject(errors);
     }
-
-    result.data.allDocumentationMatrixCsv.edges.forEach(({ node }) => {
+    data.allDocumentationMatrixCsv.edges.forEach(({ node }) => {
       createPage({
         path: node.path,
-        component: documentationTemplate,
+        component: path.resolve(`src/templates/documentation.js`),
+      });
+    });
+    data.allGroupingMatrixCsv.edges.forEach(({ node }) => {
+      createPage({
+        path: node.path,
+        component: path.resolve(`src/templates/grouping.js`),
       });
     });
   });
-};

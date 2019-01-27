@@ -6,12 +6,16 @@ const { Item: BreadcrumbItem } = Breadcrumb;
 
 const BreadcrumbNavidation = ({ node }) => (
   <Breadcrumb separator=">">
-    <BreadcrumbItem>
-      <Link to="">County</Link>
-    </BreadcrumbItem>
-    <BreadcrumbItem>
-      <Link to={node.breadcrumbPath1}>{node.breadcrumbName1}</Link>
-    </BreadcrumbItem>
+    {node.name !== 'County' ? (
+      <BreadcrumbItem>
+        <Link to={'/documentation/'}>County</Link>
+      </BreadcrumbItem>
+    ) : null}
+    {node.breadcrumbPath1 ? (
+      <BreadcrumbItem>
+        <Link to={node.breadcrumbPath1}>{node.breadcrumbName1}</Link>
+      </BreadcrumbItem>
+    ) : null}
     {node.breadcrumbPath2 ? (
       <BreadcrumbItem>
         <Link to={node.breadcrumbPath2}>{node.breadcrumbName2}</Link>

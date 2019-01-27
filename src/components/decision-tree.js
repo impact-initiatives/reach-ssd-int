@@ -31,11 +31,7 @@ const DecisionTree = ({ reliability, dispatchHigh, dispatchLow }) => (
       </RadioButton>
     </RadioGroup>
     <div>
-      {reliability === 'high' ? (
-        <HighReliability style={{}} />
-      ) : (
-        <LowReliability />
-      )}
+      {reliability === 'high' ? <HighReliability /> : <LowReliability />}
     </div>
   </div>
 );

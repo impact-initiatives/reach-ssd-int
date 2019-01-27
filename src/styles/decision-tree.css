@@ -14,8 +14,17 @@ switch * {
   opacity: 1;
 }
 
+.a a[*|href='/documentation/fsl/'] {
+  opacity: 1;
+}
+
 .a-1 a[*|href='/documentation/fsl/'],
 .a-1 a[*|href='/documentation/fsl/food-access/'] {
+  opacity: 1;
+}
+
+.a-2 a[*|href='/documentation/fsl/'],
+.a-2 a[*|href='/documentation/fsl/livelihoods/'] {
   opacity: 1;
 }
 
@@ -62,6 +71,21 @@ switch * {
 }
 
 .e a[*|href='/documentation/mortality/'] {
+  opacity: 1;
+}
+
+.county-county a[*|href='/documentation/']:hover > rect,
+.county-county a[*|href='/documentation/'] {
+  opacity: 1;
+}
+
+.a-fsl a[*|href='/documentation/fsl/']:hover > rect,
+.a-fsl a[*|href='/documentation/fsl/'] {
+  opacity: 1;
+}
+
+.a-1-food-access a[*|href='/documentation/fsl/food-access/']:hover > rect,
+.a-1-food-access a[*|href='/documentation/fsl/food-access/'] {
   opacity: 1;
 }
 
@@ -129,6 +153,18 @@ switch * {
   opacity: 1;
 }
 
+.a-2-livelihoods a[*|href='/documentation/fsl/livelihoods/']:hover > rect,
+.a-2-livelihoods a[*|href='/documentation/fsl/livelihoods/'] {
+  opacity: 1;
+}
+
+.a-2-a-agriculture
+  a[*|href='/documentation/fsl/livelihoods/agriculture/']:hover
+  > rect,
+.a-2-a-agriculture a[*|href='/documentation/fsl/livelihoods/agriculture/'] {
+  opacity: 1;
+}
+
 .a-2-a-access-to-land-inputs
   a[*|href='/documentation/fsl/livelihoods/agriculture/access-to-land-inputs/']:hover
   > rect,
@@ -150,6 +186,13 @@ switch * {
   > rect,
 .a-2-a-crop-production
   a[*|href='/documentation/fsl/livelihoods/agriculture/crop-production/'] {
+  opacity: 1;
+}
+
+.a-2-b-livestock
+  a[*|href='/documentation/fsl/livelihoods/livestock/']:hover
+  > rect,
+.a-2-b-livestock a[*|href='/documentation/fsl/livelihoods/livestock/'] {
   opacity: 1;
 }
 
@@ -182,6 +225,11 @@ switch * {
   > rect,
 .a-2-b-livestock-disease-aok
   a[*|href='/documentation/fsl/livelihoods/livestock/livestock-disease-aok/'] {
+  opacity: 1;
+}
+
+.a-2-c-markets a[*|href='/documentation/fsl/livelihoods/markets/']:hover > rect,
+.a-2-c-markets a[*|href='/documentation/fsl/livelihoods/markets/'] {
   opacity: 1;
 }
 
@@ -233,6 +281,11 @@ switch * {
   opacity: 1;
 }
 
+.a-2-d-climate a[*|href='/documentation/fsl/livelihoods/climate/']:hover > rect,
+.a-2-d-climate a[*|href='/documentation/fsl/livelihoods/climate/'] {
+  opacity: 1;
+}
+
 .a-2-d-live-green-vegetation-ndvi
   a[*|href='/documentation/fsl/livelihoods/climate/live-green-vegetation-ndvi/']:hover
   > rect,
@@ -244,8 +297,12 @@ switch * {
 .a-2-d-rainfall
   a[*|href='/documentation/fsl/livelihoods/climate/rainfall/']:hover
   > rect,
-.a-2-d-rainfall
-  a[*|href='/documentation/fsl/livelihoods/climate/rainfall/'] {
+.a-2-d-rainfall a[*|href='/documentation/fsl/livelihoods/climate/rainfall/'] {
+  opacity: 1;
+}
+
+.a-2-e-coping a[*|href='/documentation/fsl/livelihoods/coping/']:hover > rect,
+.a-2-e-coping a[*|href='/documentation/fsl/livelihoods/coping/'] {
   opacity: 1;
 }
 
@@ -254,6 +311,11 @@ switch * {
   > rect,
 .a-2-e-livelihood-coping-strategies
   a[*|href='/documentation/fsl/livelihoods/coping/livelihood-coping-strategies/'] {
+  opacity: 1;
+}
+
+.b-wash a[*|href='/documentation/wash/']:hover > rect,
+.b-wash a[*|href='/documentation/wash/'] {
   opacity: 1;
 }
 
@@ -289,11 +351,8 @@ switch * {
   opacity: 1;
 }
 
-.b-rainfall
-  a[*|href='/documentation/wash/rainfall/']:hover
-  > rect,
-.b-rainfall
-  a[*|href='/documentation/wash/rainfall/'] {
+.b-rainfall a[*|href='/documentation/wash/rainfall/']:hover > rect,
+.b-rainfall a[*|href='/documentation/wash/rainfall/'] {
   opacity: 1;
 }
 
@@ -305,35 +364,28 @@ switch * {
   opacity: 1;
 }
 
-.b-cholera
-  a[*|href='/documentation/wash/cholera/']:hover
-  > rect,
-.b-cholera
-  a[*|href='/documentation/wash/cholera/'] {
+.b-cholera a[*|href='/documentation/wash/cholera/']:hover > rect,
+.b-cholera a[*|href='/documentation/wash/cholera/'] {
   opacity: 1;
 }
 
-.b-malaria
-  a[*|href='/documentation/wash/malaria/']:hover
-  > rect,
-.b-malaria
-  a[*|href='/documentation/wash/malaria/'] {
+.b-malaria a[*|href='/documentation/wash/malaria/']:hover > rect,
+.b-malaria a[*|href='/documentation/wash/malaria/'] {
   opacity: 1;
 }
 
-.c-measles
-  a[*|href='/documentation/health/measles/']:hover
-  > rect,
-.c-measles
-  a[*|href='/documentation/health/measles/'] {
+.c-health a[*|href='/documentation/health/']:hover > rect,
+.c-health a[*|href='/documentation/health/'] {
   opacity: 1;
 }
 
-.c-ebola
-  a[*|href='/documentation/health/ebola/']:hover
-  > rect,
-.c-ebola
-  a[*|href='/documentation/health/ebola/'] {
+.c-measles a[*|href='/documentation/health/measles/']:hover > rect,
+.c-measles a[*|href='/documentation/health/measles/'] {
+  opacity: 1;
+}
+
+.c-ebola a[*|href='/documentation/health/ebola/']:hover > rect,
+.c-ebola a[*|href='/documentation/health/ebola/'] {
   opacity: 1;
 }
 
@@ -345,19 +397,18 @@ switch * {
   opacity: 1;
 }
 
-.c-cholera
-  a[*|href='/documentation/health/cholera/']:hover
-  > rect,
-.c-cholera
-  a[*|href='/documentation/health/cholera/'] {
+.c-cholera a[*|href='/documentation/health/cholera/']:hover > rect,
+.c-cholera a[*|href='/documentation/health/cholera/'] {
   opacity: 1;
 }
 
-.c-malaria
-  a[*|href='/documentation/health/malaria/']:hover
-  > rect,
-.c-malaria
-  a[*|href='/documentation/health/malaria/'] {
+.c-malaria a[*|href='/documentation/health/malaria/']:hover > rect,
+.c-malaria a[*|href='/documentation/health/malaria/'] {
+  opacity: 1;
+}
+
+.d-nutrition a[*|href='/documentation/nutrition/']:hover > rect,
+.d-nutrition a[*|href='/documentation/nutrition/'] {
   opacity: 1;
 }
 
@@ -433,11 +484,15 @@ switch * {
   opacity: 1;
 }
 
+.e-mortality a[*|href='/documentation/mortality/']:hover > rect,
+.e-mortality a[*|href='/documentation/mortality/'] {
+  opacity: 1;
+}
+
 .e-crude-death-rate
   a[*|href='/documentation/mortality/crude-death-rate/']:hover
   > rect,
-.e-crude-death-rate
-  a[*|href='/documentation/mortality/crude-death-rate/'] {
+.e-crude-death-rate a[*|href='/documentation/mortality/crude-death-rate/'] {
   opacity: 1;
 }
 
@@ -452,7 +507,6 @@ switch * {
 .e-mortality-increase
   a[*|href='/documentation/mortality/mortality-increase/']:hover
   > rect,
-.e-mortality-increase
-  a[*|href='/documentation/mortality/mortality-increase/'] {
+.e-mortality-increase a[*|href='/documentation/mortality/mortality-increase/'] {
   opacity: 1;
 }
