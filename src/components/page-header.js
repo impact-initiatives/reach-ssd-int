@@ -10,17 +10,19 @@ const PageHeader = ({ selected }) => (
     style={{
       background: '#fff',
       boxShadow: '0 2px 8px #f0f1f2',
-      position: 'relative',
       marginBottom: '24px',
     }}
   >
-    <div className="logo" />
+    <div style={{ float: 'left', margin: '0 20px 0 0' }}>INT</div>
     <Menu
       mode="horizontal"
       theme="light"
       defaultSelectedKeys={[selected]}
       style={{ lineHeight: '64px', border: 'none' }}
     >
+      <Item key="home">
+        <Link to="/">Home</Link>
+      </Item>
       <Item key="documentation">
         <Link to="/documentation/">Documentation</Link>
       </Item>

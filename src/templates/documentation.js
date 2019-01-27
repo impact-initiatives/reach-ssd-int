@@ -15,7 +15,11 @@ const DocumentationPage = ({ data: { documentationMatrixCsv: node } }) => (
     <PageHeader selected="documentation" />
     <Layout style={{ background: '#fff' }}>
       <Content style={{ padding: '0 24px', maxWidth: 992, margin: 'auto' }}>
-        <div className={`decision-tree-page ${node.code} ${node.key}`}>
+        <div
+          className={`decision-tree-page ${node.className1} ${
+            node.className1
+          }-${node.className2}`}
+        >
           <DecisionTree />
         </div>
         <br />
@@ -32,8 +36,8 @@ export const query = graphql`
   query($path: String!) {
     documentationMatrixCsv(path: { eq: $path }) {
       path
-      key
-      code
+      className1
+      className2
       breadcrumbPath1
       breadcrumbPath2
       breadcrumbPath3
@@ -41,15 +45,11 @@ export const query = graphql`
       breadcrumbName2
       breadcrumbName3
       name
-      indicator
-      highReliability
-      lowReliability
+      title
+      reliability
       description
+      options
       rational
-      conceptualIndicator
-      component
-      subComponent
-      mapped
       levelOfAnalysis
       sources
       timeliness
@@ -61,7 +61,6 @@ export const query = graphql`
       notTriggered
       reference
       link
-      link2
     }
   }
 `;

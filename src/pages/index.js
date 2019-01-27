@@ -9,7 +9,7 @@ const { Content } = Layout;
 
 const DocumentationPage = () => (
   <Layout style={{ background: '#fff' }}>
-    <PageHeader selected="documentation" />
+    <PageHeader selected="home" />
     <Layout style={{ padding: '24px 0', background: '#fff' }}>
       <Content style={{ padding: '0 24px', maxWidth: 1200, margin: 'auto' }}>
         <DecisionTree />

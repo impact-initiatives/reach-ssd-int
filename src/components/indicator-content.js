@@ -3,48 +3,53 @@ import { Table } from 'antd';
 
 const IndicatorContent = ({ node }) => (
   <div>
-    <h1>{node.indicator}</h1>
+    <h1>{node.title}</h1>
     <h2>Description</h2>
     <p>{node.description}</p>
+    {node.options ? (
+      <ol>
+        {node.options.split(';').map((n, index) => (
+          <li key={index}>{n}</li>
+        ))}
+      </ol>
+    ) : null}
     <h2>Rationale for inclusion in the INT</h2>
     <p>{node.rational}</p>
     <h2>Metadata</h2>
-    <p>
-      <b>Reliability Tree High: </b>
-      {node.highReliability}
-    </p>
-    <p>
-      <b>Reliability Tree Low: </b>
-      {node.lowReliability}
-    </p>
-    <p>
-      <b>Conceptual Indicator: </b>
-      {node.conceptualIndicator}
-    </p>
-    <p>
-      <b>Component: </b>
-      {node.component}
-    </p>
-    <p>
-      <b>Sub-component: </b>
-      {node.subComponent}
-    </p>
-    <p>
-      <b>Mapped: </b>
-      {node.mapped}
-    </p>
-    <p>
-      <b>Level of analysis: </b>
-      {node.levelOfAnalysis}
-    </p>
-    <p>
-      <b>Sources of data: </b>
-      {node.sources}
-    </p>
-    <p>
-      <b>Timeliness of data: </b>
-      {node.timeliness}
-    </p>
+    <ul>
+      <li>
+        <b>Reliability Tree: </b>
+        {node.reliability}
+      </li>
+      <li>
+        <b>Conceptual Indicator: </b>
+        {node.breadcrumbName1 || 'N/A'}
+      </li>
+      <li>
+        <b>Component: </b>
+        {node.breadcrumbName2 || 'N/A'}
+      </li>
+      <li>
+        <b>Sub-Component: </b>
+        {node.breadcrumbName3 || 'N/A'}
+      </li>
+      <li>
+        <b>Level of analysis: </b>
+        {node.levelOfAnalysis}
+      </li>
+      <li>
+        <b>Timeliness of data: </b>
+        {node.timeliness}
+      </li>
+      <li>
+        <b>Sources of data: </b>
+        {node.sources}
+      </li>
+      <li>
+        <b>Reference: </b>
+        <a href={node.link}>{node.reference}</a>
+      </li>
+    </ul>
     <h2>Thresholds</h2>
     <Table
       dataSource={[

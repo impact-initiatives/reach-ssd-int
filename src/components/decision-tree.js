@@ -21,7 +21,7 @@ const mapDispatchToProps = dispatch => {
 
 const DecisionTree = ({ reliability, dispatchHigh, dispatchLow }) => (
   <div style={{ textAlign: 'right' }}>
-    Reliability:&nbsp;
+    Reliability Tree:&nbsp;&nbsp;
     <RadioGroup value={reliability} style={{ marginBottom: 16 }}>
       <RadioButton onChange={dispatchHigh} value="high">
         High
