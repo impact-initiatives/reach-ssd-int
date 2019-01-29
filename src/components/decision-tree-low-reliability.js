@@ -407,7 +407,7 @@ const DecisionTreeLowReliability = () => (
               <b>
                 A.1
                 <br />
-                Food Access &amp; Availability
+                Food Availability &amp; Access
               </b>
               <br />
             </div>
@@ -421,8 +421,8 @@ const DecisionTreeLowReliability = () => (
           fontSize="14px"
           fontFamily="Helvetica"
         >
-          &lt;b&gt;A.1&lt;br&gt;Food Access &amp;
-          Availability&lt;/b&gt;&lt;br&gt;
+          &lt;b&gt;A.1&lt;br&gt;Food Availability &amp;
+          Access&lt;/b&gt;&lt;br&gt;
         </text>
       </switch>
     </a>

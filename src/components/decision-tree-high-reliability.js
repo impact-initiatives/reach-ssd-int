@@ -399,7 +399,7 @@ const DecisionTreeHighReliability = () => (
               <b>
                 A.1
                 <br />
-                Food Access &amp; Availability
+                Food Availability &amp; Access
               </b>
             </div>
           </div>
@@ -412,7 +412,7 @@ const DecisionTreeHighReliability = () => (
           fontSize="14px"
           fontFamily="Helvetica"
         >
-          &lt;b&gt;A.1&lt;br&gt;Food Access &amp; Availability&lt;/b&gt;
+          &lt;b&gt;A.1&lt;br&gt;Food Availability &amp; Access&lt;/b&gt;
         </text>
       </switch>
     </a>
@@ -2287,7 +2287,7 @@ const DecisionTreeHighReliability = () => (
         </text>
       </switch>
     </a>
-    <a xlinkHref="/documentation/fsl/food-access/household-hunger-score/">
+    <a xlinkHref="/documentation/fsl/food-access/household-hunger-scale/">
       <rect
         x={1}
         y={631}
@@ -2328,7 +2328,7 @@ const DecisionTreeHighReliability = () => (
                 textDecoration: 'inherit',
               }}
             >
-              Household Hunger Score
+              Household Hunger Scale
             </div>
           </div>
         </foreignObject>
@@ -2340,7 +2340,7 @@ const DecisionTreeHighReliability = () => (
           fontSize="14px"
           fontFamily="Helvetica"
         >
-          Household Hunger Score
+          Household Hunger Scale
         </text>
       </switch>
     </a>

@@ -113,11 +113,11 @@ switch * {
   opacity: 1;
 }
 
-.a-1-household-hunger-score
-  a[*|href='/documentation/fsl/food-access/household-hunger-score/']:hover
+.a-1-household-hunger-scale
+  a[*|href='/documentation/fsl/food-access/household-hunger-scale/']:hover
   > rect,
-.a-1-household-hunger-score
-  a[*|href='/documentation/fsl/food-access/household-hunger-score/'] {
+.a-1-household-hunger-scale
+  a[*|href='/documentation/fsl/food-access/household-hunger-scale/'] {
   opacity: 1;
 }
 
