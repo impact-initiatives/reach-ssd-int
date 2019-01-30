@@ -15,6 +15,12 @@ const IndicatorContent = ({ node }) => (
     ) : null}
     <h2>Rationale for inclusion in the INT</h2>
     <p>{node.rational}</p>
+    <h2>References</h2>
+    <ol>
+      <li>
+        <a href={node.link}>{node.reference}</a>
+      </li>
+    </ol>
     <h2>Metadata</h2>
     <ul>
       <li>
@@ -44,10 +50,6 @@ const IndicatorContent = ({ node }) => (
       <li>
         <b>Sources of data: </b>
         {node.sources}
-      </li>
-      <li>
-        <b>Reference: </b>
-        <a href={node.link}>{node.reference}</a>
       </li>
     </ul>
     <h2>Thresholds</h2>
