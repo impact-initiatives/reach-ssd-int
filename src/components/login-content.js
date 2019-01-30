@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Form, Icon, Input, Button, Row } from 'antd';
+import { Form, Icon, Input, Button } from 'antd';
 
-import { handleLogin, logout } from '../utils/auth';
+import { handleLogin } from '../utils/auth';
 
 const { Item: FormItem } = Form;
 
@@ -41,18 +41,11 @@ class LoginContent extends Component {
             />,
           )}
         </FormItem>
-        <Row type="flex" justify="space-between">
-          <FormItem>
-            <Button type="primary" htmlType="submit">
-              Log in
-            </Button>
-          </FormItem>
-          <FormItem>
-            <Button type="danger" onClick={logout}>
-              Log out
-            </Button>
-          </FormItem>
-        </Row>
+        <FormItem>
+          <Button type="primary" htmlType="submit">
+            Log in
+          </Button>
+        </FormItem>
       </Form>
     );
   }
