@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button, Layout, Row, Col } from 'antd';
+import { Button, Layout, Row } from 'antd';
 
 import { logout } from '../utils/auth';
-import styles from '../styles/login.module.css';
+import styles from '../styles/logout.module.css';
 
 const { Content } = Layout;
 
