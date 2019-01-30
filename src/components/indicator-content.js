@@ -1,26 +1,10 @@
 import React from 'react';
 import { Table } from 'antd';
 
-const IndicatorContent = ({ node }) => (
+const IndicatorContent = ({ html, node }) => (
   <div>
     <h1>{node.title}</h1>
-    <h2>Description</h2>
-    <p>{node.description}</p>
-    {node.options ? (
-      <ol>
-        {node.options.split(';').map((n, index) => (
-          <li key={index}>{n}</li>
-        ))}
-      </ol>
-    ) : null}
-    <h2>Rationale for inclusion in the INT</h2>
-    <p>{node.rational}</p>
-    <h2>References</h2>
-    <ol>
-      <li>
-        <a href={node.link}>{node.reference}</a>
-      </li>
-    </ol>
+    <div dangerouslySetInnerHTML={{ __html: html }} />
     <h2>Metadata</h2>
     <ul>
       <li>

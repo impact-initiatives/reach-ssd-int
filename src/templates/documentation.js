@@ -10,7 +10,12 @@ import BreadcrumbNavigation from '../components/breadcrumb-navigation';
 
 const { Content } = Layout;
 
-const DocumentationPage = ({ data: { documentationMatrixCsv: node } }) => (
+const DocumentationPage = ({
+  data: {
+    documentationMatrixCsv: node,
+    markdownRemark: { html },
+  },
+}) => (
   <Layout style={{ background: '#fff' }}>
     <PageHeader selected="documentation" />
     <Layout style={{ background: '#fff' }}>
@@ -32,7 +37,7 @@ const DocumentationPage = ({ data: { documentationMatrixCsv: node } }) => (
         <br />
         <BreadcrumbNavigation node={node} />
         <br />
-        <IndicatorContent node={node} />
+        <IndicatorContent html={html} node={node} />
       </Content>
       <PageFooter />
     </Layout>
@@ -54,9 +59,6 @@ export const query = graphql`
       name
       title
       reliability
-      description
-      options
-      rational
       levelOfAnalysis
       sources
       timeliness
@@ -66,8 +68,9 @@ export const query = graphql`
       warning
       stressed
       notTriggered
-      reference
-      link
+    }
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
     }
   }
 `;

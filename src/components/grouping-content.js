@@ -1,9 +1,10 @@
 import React from 'react';
 import { Table, Row, Col } from 'antd';
 
-const IndicatorContent = ({ node }) => (
+const IndicatorContent = ({ html, node }) => (
   <div>
     <h1>{node.name}</h1>
+    <div dangerouslySetInnerHTML={{ __html: html }} />
     <h2>Classification</h2>
     <p>One of the following requirements must be met in order to classify:</p>
     <Row>

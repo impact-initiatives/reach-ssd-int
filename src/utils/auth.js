@@ -28,13 +28,6 @@ export const isLoggedIn = () => {
   return Boolean(user.username) && Boolean(user.password);
 };
 
-export const isLoginPage = () => {
-  if (!isBrowser) return false;
-  return window.location.pathname === '/login/';
-};
-
-export const getCurrentUser = () => isBrowser && getUser();
-
 export const logout = () => {
   if (!isBrowser) return false;
   setUser({});

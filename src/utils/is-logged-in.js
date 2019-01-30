@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { isLoggedIn } from '../utils/auth';
+import { isLoggedIn } from './auth';
 import LoginPage from '../templates/login';
 
 import styles from '../styles/is-logged-in.module.css';
