@@ -1,0 +1,17 @@
+.map {
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  max-height: 900px;
+  margin: auto;
+}
+
+.content {
+  padding: 0 24px;
+  height: 100%;
+}
+
+.layout {
+  background: white;
+  height: 100%;
+}

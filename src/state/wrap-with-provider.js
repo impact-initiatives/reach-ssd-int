@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import { isLoggedIn, isLoginPage } from '../utils/auth';
 
 import createStore from './create-store';
+import '../styles/global.css';
 
 const isBrowser = typeof window !== 'undefined';
 const store = createStore();

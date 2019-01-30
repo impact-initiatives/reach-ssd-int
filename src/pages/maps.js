@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import { Layout, Row } from 'antd';
+import { Layout } from 'antd';
 
 import PageHeader from '../components/page-header';
+import styles from '../styles/maps.module.css';
 
 const { Content, Footer } = Layout;
 
 class MapsPage extends Component {
   componentDidMount() {
     if (typeof window !== 'undefined') {
-      const height = window.innerHeight - 157;
       const options = {
-        height: height > 900 ? 900 : height,
+        height: '100%',
         width: '100%',
       };
       import('../scripts/tableau-2.2.2.min.js').then(() => {
@@ -24,16 +24,11 @@ class MapsPage extends Component {
 
   render() {
     return (
-      <Layout style={{ background: '#fff' }}>
+      <Layout className={styles.layout}>
         <PageHeader selected="maps" />
-        <Layout style={{ background: '#fff' }}>
-          <Content style={{ padding: '0 24px', minHeight: 280 }}>
-            <Row type="flex" justify="center">
-              <div
-                ref={e => (this.vizContainer = e)}
-                style={{ width: '100%', maxWidth: 1200 }}
-              />
-            </Row>
+        <Layout className={styles.layout}>
+          <Content className={styles.content}>
+            <div ref={e => (this.vizContainer = e)} className={styles.map} />
           </Content>
         </Layout>
         <Footer style={{ textAlign: 'center', background: '#fff' }}>
