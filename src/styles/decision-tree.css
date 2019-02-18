@@ -196,6 +196,14 @@ switch * {
   opacity: 1;
 }
 
+.a-2-b-possession-of-livestock
+  a[*|href='/documentation/fsl/livelihoods/livestock/possession-of-livestock/']:hover
+  > rect,
+.a-2-b-possession-of-livestock
+  a[*|href='/documentation/fsl/livelihoods/livestock/possession-of-livestock/'] {
+  opacity: 1;
+}
+
 .a-2-b-access-to-livestock
   a[*|href='/documentation/fsl/livelihoods/livestock/access-to-livestock/']:hover
   > rect,

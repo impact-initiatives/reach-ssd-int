@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "reach-ssd-int-dashboard",
+  "description": "REACH South Sudan INT Dashboard",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Maxym Malynowsky <maxym.malynowsky@reach-initiative.org>",
@@ -15,21 +15,21 @@
     "upgrade": "npm-upgrade"
   },
   "dependencies": {
-    "antd": "^3.13.0",
-    "gatsby": "^2.0.98",
-    "gatsby-image": "^2.0.28",
-    "gatsby-plugin-catch-links": "^2.0.9",
-    "gatsby-plugin-manifest": "^2.0.13",
-    "gatsby-plugin-offline": "^2.0.21",
-    "gatsby-plugin-react-helmet": "^3.0.5",
-    "gatsby-plugin-sharp": "^2.0.18",
-    "gatsby-source-filesystem": "^2.0.17",
-    "gatsby-transformer-csv": "^2.0.6",
-    "gatsby-transformer-remark": "^2.2.0",
-    "gatsby-transformer-sharp": "^2.1.12",
+    "antd": "^3.13.1",
+    "gatsby": "^2.0.115",
+    "gatsby-image": "^2.0.29",
+    "gatsby-plugin-catch-links": "^2.0.10",
+    "gatsby-plugin-manifest": "^2.0.17",
+    "gatsby-plugin-offline": "^2.0.22",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-sharp": "^2.0.20",
+    "gatsby-source-filesystem": "^2.0.20",
+    "gatsby-transformer-csv": "^2.0.7",
+    "gatsby-transformer-remark": "^2.2.4",
+    "gatsby-transformer-sharp": "^2.1.13",
     "prop-types": "^15.6.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "react-helmet": "^5.2.0",
     "react-redux": "^6.0.0",
     "redux": "^4.0.1"
@@ -38,15 +38,15 @@
     "@babel/core": "^7.2.2",
     "babel-eslint": "^10.0.1",
     "babel-plugin-import": "^1.11.0",
-    "eslint": "^5.12.1",
-    "eslint-plugin-jsx-a11y": "^6.2.0",
-    "prettier": "^1.16.1"
+    "eslint": "^5.13.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "prettier": "^1.16.4"
   },
   "keywords": [
     "gatsby"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/impact-initiatives/reach-ssd-int-dashboard"
   }
 }

@@ -127,7 +127,7 @@ const DecisionTreeLowReliability = () => (
       pointerEvents="none"
     />
     <path
-      d="M796 423v116M76 449v-6.5V423m0 90v26m0 90v-6.5V603m0 90v26m540-206v26m0 90v-6.5V603m0 90v26m0 90v-6.5V783m0-360v26M256 333v26m0 64v26m180-26v26m0 64v26"
+      d="M796 423v116M76 449v-6.5V423m0 90v26m0 90v-6.5V603m0 90v26m540-206v26m0 90v-6.5V603m0 90v26m0 90v-6.5V783m0-360v26M256 333v26m0 64v26"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -167,7 +167,7 @@ const DecisionTreeLowReliability = () => (
       pointerEvents="none"
     />
     <path
-      d="M616 333v26m180-26v26m-360-26v26M976 63v6.5q0 6.5-10 6.5H356q-10 0-10 6.5V89"
+      d="M616 333v26m180-26v26M976 63v6.5q0 6.5-10 6.5H356q-10 0-10 6.5V89"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -211,7 +211,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 56,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -270,7 +270,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -330,7 +330,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 78,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -392,7 +392,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -409,7 +409,6 @@ const DecisionTreeLowReliability = () => (
                 <br />
                 Food Availability &amp; Access
               </b>
-              <br />
             </div>
           </div>
         </foreignObject>
@@ -421,8 +420,7 @@ const DecisionTreeLowReliability = () => (
           fontSize="14px"
           fontFamily="Helvetica"
         >
-          &lt;b&gt;A.1&lt;br&gt;Food Availability &amp;
-          Access&lt;/b&gt;&lt;br&gt;
+          &lt;b&gt;A.1&lt;br&gt;Food Availability &amp; Access&lt;/b&gt;
         </text>
       </switch>
     </a>
@@ -455,7 +453,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -516,7 +514,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 48,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -573,7 +571,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -631,7 +629,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -689,7 +687,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 44,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -750,7 +748,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 36,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -808,7 +806,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 54,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -866,7 +864,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 60,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -927,7 +925,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 108,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -986,7 +984,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 108,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1045,7 +1043,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 108,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1104,7 +1102,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 60,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -1165,7 +1163,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 112,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1222,7 +1220,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 66,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1284,7 +1282,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 54,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1346,7 +1344,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 76,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1408,7 +1406,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 52,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1470,7 +1468,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1527,7 +1525,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1585,7 +1583,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 50,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1643,7 +1641,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 46,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1701,7 +1699,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1759,7 +1757,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 50,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1817,7 +1815,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 46,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1875,7 +1873,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1900,63 +1898,6 @@ const DecisionTreeLowReliability = () => (
           fontFamily="Helvetica"
         >
           Access to Land &amp; Inputs
-        </text>
-      </switch>
-    </a>
-    <a xlinkHref="/documentation/fsl/livelihoods/livestock/access-to-livestock/">
-      <rect
-        x={361}
-        y={361}
-        width={150}
-        height={60}
-        rx="4.2"
-        ry="4.2"
-        fill="#f08e81"
-      />
-      <switch transform="translate(374.5,383.5)">
-        <foreignObject
-          style={{ overflow: 'visible' }}
-          pointerEvents="all"
-          width={122}
-          height={14}
-          requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
-        >
-          <div
-            xmlns="http://www.w3.org/1999/xhtml"
-            style={{
-              display: 'inline-block',
-              fontSize: 14,
-              fontFamily: 'Helvetica',
-              color: 'rgb(255, 255, 255)',
-              lineHeight: '1.2',
-              verticalAlign: 'top',
-              width: 124,
-              whiteSpace: 'nowrap',
-              wordWrap: 'normal',
-              textAlign: 'center',
-            }}
-          >
-            <div
-              xmlns="http://www.w3.org/1999/xhtml"
-              style={{
-                display: 'inline-block',
-                textAlign: 'inherit',
-                textDecoration: 'inherit',
-              }}
-            >
-              Access to Livestock
-            </div>
-          </div>
-        </foreignObject>
-        <text
-          x={61}
-          y={14}
-          fill="#FFF"
-          textAnchor="middle"
-          fontSize="14px"
-          fontFamily="Helvetica"
-        >
-          Access to Livestock
         </text>
       </switch>
     </a>
@@ -1989,7 +1930,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 116,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2046,7 +1987,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2104,7 +2045,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 48,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2161,7 +2102,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2218,7 +2159,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2275,7 +2216,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2332,7 +2273,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2389,7 +2330,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 102,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2414,120 +2355,6 @@ const DecisionTreeLowReliability = () => (
           fontFamily="Helvetica"
         >
           Fall Army Worm
-        </text>
-      </switch>
-    </a>
-    <a xlinkHref="/documentation/fsl/livelihoods/livestock/livestock-disease-shock/">
-      <rect
-        x={361}
-        y={451}
-        width={150}
-        height={60}
-        rx="4.2"
-        ry="4.2"
-        fill="#f08e81"
-      />
-      <switch transform="translate(364.5,465.5)">
-        <foreignObject
-          style={{ overflow: 'visible' }}
-          pointerEvents="all"
-          width={142}
-          height={30}
-          requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
-        >
-          <div
-            xmlns="http://www.w3.org/1999/xhtml"
-            style={{
-              display: 'inline-block',
-              fontSize: 14,
-              fontFamily: 'Helvetica',
-              color: 'rgb(255, 255, 255)',
-              lineHeight: '1.2',
-              verticalAlign: 'top',
-              width: 142,
-              whiteSpace: 'normal',
-              wordWrap: 'normal',
-              textAlign: 'center',
-            }}
-          >
-            <div
-              xmlns="http://www.w3.org/1999/xhtml"
-              style={{
-                display: 'inline-block',
-                textAlign: 'inherit',
-                textDecoration: 'inherit',
-              }}
-            >
-              Livestock Disease Shock
-            </div>
-          </div>
-        </foreignObject>
-        <text
-          x={71}
-          y={22}
-          fill="#FFF"
-          textAnchor="middle"
-          fontSize="14px"
-          fontFamily="Helvetica"
-        >
-          Livestock Disease Shock
-        </text>
-      </switch>
-    </a>
-    <a xlinkHref="/documentation/fsl/livelihoods/livestock/livestock-disease-aok/">
-      <rect
-        x={361}
-        y={541}
-        width={150}
-        height={60}
-        rx="4.2"
-        ry="4.2"
-        fill="#f08e81"
-      />
-      <switch transform="translate(364.5,555.5)">
-        <foreignObject
-          style={{ overflow: 'visible' }}
-          pointerEvents="all"
-          width={142}
-          height={30}
-          requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
-        >
-          <div
-            xmlns="http://www.w3.org/1999/xhtml"
-            style={{
-              display: 'inline-block',
-              fontSize: 14,
-              fontFamily: 'Helvetica',
-              color: 'rgb(255, 255, 255)',
-              lineHeight: '1.2',
-              verticalAlign: 'top',
-              width: 142,
-              whiteSpace: 'normal',
-              wordWrap: 'normal',
-              textAlign: 'center',
-            }}
-          >
-            <div
-              xmlns="http://www.w3.org/1999/xhtml"
-              style={{
-                display: 'inline-block',
-                textAlign: 'inherit',
-                textDecoration: 'inherit',
-              }}
-            >
-              Livestock Disease (AoK)
-            </div>
-          </div>
-        </foreignObject>
-        <text
-          x={71}
-          y={22}
-          fill="#FFF"
-          textAnchor="middle"
-          fontSize="14px"
-          fontFamily="Helvetica"
-        >
-          Livestock Disease (AoK)
         </text>
       </switch>
     </a>
@@ -2560,7 +2387,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 120,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2617,7 +2444,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 100,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2674,7 +2501,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 110,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2731,7 +2558,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 108,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2789,7 +2616,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2846,7 +2673,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 108,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2905,7 +2732,7 @@ const DecisionTreeLowReliability = () => (
               verticalAlign: 'top',
               width: 114,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2932,6 +2759,305 @@ const DecisionTreeLowReliability = () => (
           fontFamily="Helvetica"
         >
           Malnourished &lt;br&gt;Children &amp; Elderly
+        </text>
+      </switch>
+    </a>
+    <path
+      d="M436 423v26m0 64v26m0-206v26"
+      fill="none"
+      stroke="#e85642"
+      strokeWidth={3}
+      strokeMiterlimit={10}
+    />
+    <a xlinkHref="/documentation/fsl/livelihoods/livestock/possession-of-livestock/">
+      <rect
+        x={361}
+        y={361}
+        width={150}
+        height={60}
+        rx="4.2"
+        ry="4.2"
+        fill="#f08e81"
+      />
+      <switch transform="translate(364.5,375.5)">
+        <foreignObject
+          style={{ overflow: 'visible' }}
+          pointerEvents="all"
+          width={142}
+          height={30}
+          requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+        >
+          <div
+            xmlns="http://www.w3.org/1999/xhtml"
+            style={{
+              display: 'inline-block',
+              fontSize: 14,
+              fontFamily: 'Helvetica',
+              color: 'rgb(255, 255, 255)',
+              lineHeight: '1.2',
+              verticalAlign: 'top',
+              width: 142,
+              whiteSpace: 'normal',
+              overflowWrap: 'normal',
+              textAlign: 'center',
+            }}
+          >
+            <div
+              xmlns="http://www.w3.org/1999/xhtml"
+              style={{
+                display: 'inline-block',
+                textAlign: 'inherit',
+                textDecoration: 'inherit',
+              }}
+            >
+              Possession of Livestock
+            </div>
+          </div>
+        </foreignObject>
+        <text
+          x={71}
+          y={22}
+          fill="#FFF"
+          textAnchor="middle"
+          fontSize="14px"
+          fontFamily="Helvetica"
+        >
+          Possession of Livestock
+        </text>
+      </switch>
+    </a>
+    <a xlinkHref="/documentation/fsl/livelihoods/livestock/access-to-livestock/">
+      <rect
+        x={361}
+        y={451}
+        width={150}
+        height={60}
+        rx="4.2"
+        ry="4.2"
+        fill="#f08e81"
+      />
+      <switch transform="translate(374.5,473.5)">
+        <foreignObject
+          style={{ overflow: 'visible' }}
+          pointerEvents="all"
+          width={122}
+          height={14}
+          requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+        >
+          <div
+            xmlns="http://www.w3.org/1999/xhtml"
+            style={{
+              display: 'inline-block',
+              fontSize: 14,
+              fontFamily: 'Helvetica',
+              color: 'rgb(255, 255, 255)',
+              lineHeight: '1.2',
+              verticalAlign: 'top',
+              width: 124,
+              whiteSpace: 'nowrap',
+              overflowWrap: 'normal',
+              textAlign: 'center',
+            }}
+          >
+            <div
+              xmlns="http://www.w3.org/1999/xhtml"
+              style={{
+                display: 'inline-block',
+                textAlign: 'inherit',
+                textDecoration: 'inherit',
+              }}
+            >
+              Access to Livestock
+            </div>
+          </div>
+        </foreignObject>
+        <text
+          x={61}
+          y={14}
+          fill="#FFF"
+          textAnchor="middle"
+          fontSize="14px"
+          fontFamily="Helvetica"
+        >
+          Access to Livestock
+        </text>
+      </switch>
+    </a>
+    <a xlinkHref="/documentation/fsl/livelihoods/livestock/livestock-disease-shock/">
+      <rect
+        x={361}
+        y={541}
+        width={150}
+        height={60}
+        rx="4.2"
+        ry="4.2"
+        fill="#f08e81"
+      />
+      <switch transform="translate(364.5,555.5)">
+        <foreignObject
+          style={{ overflow: 'visible' }}
+          pointerEvents="all"
+          width={142}
+          height={30}
+          requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+        >
+          <div
+            xmlns="http://www.w3.org/1999/xhtml"
+            style={{
+              display: 'inline-block',
+              fontSize: 14,
+              fontFamily: 'Helvetica',
+              color: 'rgb(255, 255, 255)',
+              lineHeight: '1.2',
+              verticalAlign: 'top',
+              width: 142,
+              whiteSpace: 'normal',
+              overflowWrap: 'normal',
+              textAlign: 'center',
+            }}
+          >
+            <div
+              xmlns="http://www.w3.org/1999/xhtml"
+              style={{
+                display: 'inline-block',
+                textAlign: 'inherit',
+                textDecoration: 'inherit',
+              }}
+            >
+              Livestock Disease Shock
+            </div>
+          </div>
+        </foreignObject>
+        <text
+          x={71}
+          y={22}
+          fill="#FFF"
+          textAnchor="middle"
+          fontSize="14px"
+          fontFamily="Helvetica"
+        >
+          Livestock Disease Shock
+        </text>
+      </switch>
+    </a>
+    <a xlinkHref="/documentation/fsl/livelihoods/livestock/livestock-disease-aok/">
+      <rect
+        x={361}
+        y={631}
+        width={150}
+        height={60}
+        rx="4.2"
+        ry="4.2"
+        fill="#f08e81"
+      />
+      <switch transform="translate(364.5,645.5)">
+        <foreignObject
+          style={{ overflow: 'visible' }}
+          pointerEvents="all"
+          width={142}
+          height={30}
+          requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+        >
+          <div
+            xmlns="http://www.w3.org/1999/xhtml"
+            style={{
+              display: 'inline-block',
+              fontSize: 14,
+              fontFamily: 'Helvetica',
+              color: 'rgb(255, 255, 255)',
+              lineHeight: '1.2',
+              verticalAlign: 'top',
+              width: 142,
+              whiteSpace: 'normal',
+              overflowWrap: 'normal',
+              textAlign: 'center',
+            }}
+          >
+            <div
+              xmlns="http://www.w3.org/1999/xhtml"
+              style={{
+                display: 'inline-block',
+                textAlign: 'inherit',
+                textDecoration: 'inherit',
+              }}
+            >
+              Livestock Disease (AoK)
+            </div>
+          </div>
+        </foreignObject>
+        <text
+          x={71}
+          y={22}
+          fill="#FFF"
+          textAnchor="middle"
+          fontSize="14px"
+          fontFamily="Helvetica"
+        >
+          Livestock Disease (AoK)
+        </text>
+      </switch>
+    </a>
+    <path
+      d="M436 629v-6.5V603m-180-90v26"
+      fill="none"
+      stroke="#e85642"
+      strokeWidth={3}
+      strokeMiterlimit={10}
+    />
+    <a xlinkHref="/documentation/fsl/livelihoods/agriculture/crop-production/">
+      <rect
+        x={181}
+        y={541}
+        width={150}
+        height={60}
+        rx="4.2"
+        ry="4.2"
+        fill="#f08e81"
+      />
+      <switch transform="translate(204.5,563.5)">
+        <foreignObject
+          style={{ overflow: 'visible' }}
+          pointerEvents="all"
+          width={102}
+          height={14}
+          requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+        >
+          <div
+            xmlns="http://www.w3.org/1999/xhtml"
+            style={{
+              display: 'inline-block',
+              fontSize: 14,
+              fontFamily: 'Helvetica',
+              color: 'rgb(255, 255, 255)',
+              lineHeight: '1.2',
+              verticalAlign: 'top',
+              width: 102,
+              whiteSpace: 'nowrap',
+              overflowWrap: 'normal',
+              textAlign: 'center',
+            }}
+          >
+            <div
+              xmlns="http://www.w3.org/1999/xhtml"
+              style={{
+                display: 'inline-block',
+                textAlign: 'inherit',
+                textDecoration: 'inherit',
+              }}
+            >
+              Crop Production
+            </div>
+          </div>
+        </foreignObject>
+        <text
+          x={51}
+          y={14}
+          fill="#FFF"
+          textAnchor="middle"
+          fontSize="14px"
+          fontFamily="Helvetica"
+        >
+          Crop Production
         </text>
       </switch>
     </a>

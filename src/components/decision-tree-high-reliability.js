@@ -203,7 +203,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 56,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -262,7 +262,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -322,7 +322,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 78,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -384,7 +384,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -401,6 +401,7 @@ const DecisionTreeHighReliability = () => (
                 <br />
                 Food Availability &amp; Access
               </b>
+              <br />
             </div>
           </div>
         </foreignObject>
@@ -412,7 +413,8 @@ const DecisionTreeHighReliability = () => (
           fontSize="14px"
           fontFamily="Helvetica"
         >
-          &lt;b&gt;A.1&lt;br&gt;Food Availability &amp; Access&lt;/b&gt;
+          &lt;b&gt;A.1&lt;br&gt;Food Availability &amp;
+          Access&lt;/b&gt;&lt;br&gt;
         </text>
       </switch>
     </a>
@@ -445,7 +447,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -506,7 +508,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 48,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -563,7 +565,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -621,7 +623,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -679,7 +681,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 44,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -740,7 +742,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 36,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -798,7 +800,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 54,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -856,7 +858,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 60,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -917,7 +919,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -974,7 +976,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1031,7 +1033,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1088,7 +1090,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 60,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               fontWeight: 'bold',
               textAlign: 'center',
             }}
@@ -1149,7 +1151,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 114,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1206,7 +1208,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1263,7 +1265,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 66,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1325,7 +1327,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 54,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1387,7 +1389,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 76,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1449,7 +1451,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 52,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1511,7 +1513,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1568,7 +1570,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1626,7 +1628,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 50,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1684,7 +1686,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 46,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1742,7 +1744,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1800,7 +1802,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 50,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1858,7 +1860,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 46,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1916,7 +1918,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1944,7 +1946,7 @@ const DecisionTreeHighReliability = () => (
         </text>
       </switch>
     </a>
-    <a xlinkHref="/documentation/fsl/livelihoods/livestock/access-to-livestock/">
+    <a xlinkHref="/documentation/fsl/livelihoods/livestock/possession-of-livestock/">
       <rect
         x={361}
         y={361}
@@ -1954,12 +1956,12 @@ const DecisionTreeHighReliability = () => (
         ry="4.2"
         fill="#f08e81"
       />
-      <switch transform="translate(374.5,383.5)">
+      <switch transform="translate(364.5,375.5)">
         <foreignObject
           style={{ overflow: 'visible' }}
           pointerEvents="all"
-          width={122}
-          height={14}
+          width={142}
+          height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
         >
           <div
@@ -1971,9 +1973,9 @@ const DecisionTreeHighReliability = () => (
               color: 'rgb(255, 255, 255)',
               lineHeight: '1.2',
               verticalAlign: 'top',
-              width: 124,
-              whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              width: 142,
+              whiteSpace: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -1985,19 +1987,19 @@ const DecisionTreeHighReliability = () => (
                 textDecoration: 'inherit',
               }}
             >
-              Access to Livestock
+              Possession of Livestock
             </div>
           </div>
         </foreignObject>
         <text
-          x={61}
-          y={14}
+          x={71}
+          y={22}
           fill="#FFF"
           textAnchor="middle"
           fontSize="14px"
           fontFamily="Helvetica"
         >
-          Access to Livestock
+          Possession of Livestock
         </text>
       </switch>
     </a>
@@ -2030,7 +2032,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 116,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2087,7 +2089,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2145,7 +2147,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 48,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2202,7 +2204,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2259,7 +2261,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2316,7 +2318,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2373,7 +2375,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2430,7 +2432,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 102,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2487,7 +2489,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 102,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2515,7 +2517,7 @@ const DecisionTreeHighReliability = () => (
         </text>
       </switch>
     </a>
-    <a xlinkHref="/documentation/fsl/livelihoods/livestock/livestock-disease-shock/">
+    <a xlinkHref="/documentation/fsl/livelihoods/livestock/access-to-livestock/">
       <rect
         x={361}
         y={451}
@@ -2525,12 +2527,12 @@ const DecisionTreeHighReliability = () => (
         ry="4.2"
         fill="#f08e81"
       />
-      <switch transform="translate(364.5,465.5)">
+      <switch transform="translate(374.5,473.5)">
         <foreignObject
           style={{ overflow: 'visible' }}
           pointerEvents="all"
-          width={142}
-          height={30}
+          width={122}
+          height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
         >
           <div
@@ -2542,9 +2544,9 @@ const DecisionTreeHighReliability = () => (
               color: 'rgb(255, 255, 255)',
               lineHeight: '1.2',
               verticalAlign: 'top',
-              width: 142,
-              whiteSpace: 'normal',
-              wordWrap: 'normal',
+              width: 124,
+              whiteSpace: 'nowrap',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2556,23 +2558,23 @@ const DecisionTreeHighReliability = () => (
                 textDecoration: 'inherit',
               }}
             >
-              Livestock Disease Shock
+              Access to Livestock
             </div>
           </div>
         </foreignObject>
         <text
-          x={71}
-          y={22}
+          x={61}
+          y={14}
           fill="#FFF"
           textAnchor="middle"
           fontSize="14px"
           fontFamily="Helvetica"
         >
-          Livestock Disease Shock
+          Access to Livestock
         </text>
       </switch>
     </a>
-    <a xlinkHref="/documentation/fsl/livelihoods/livestock/livestock-disease-fao/">
+    <a xlinkHref="/documentation/fsl/livelihoods/livestock/livestock-disease-shock/">
       <rect
         x={361}
         y={541}
@@ -2601,7 +2603,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2613,7 +2615,7 @@ const DecisionTreeHighReliability = () => (
                 textDecoration: 'inherit',
               }}
             >
-              Livestock Disease (FAO)
+              Livestock Disease Shock
             </div>
           </div>
         </foreignObject>
@@ -2625,7 +2627,7 @@ const DecisionTreeHighReliability = () => (
           fontSize="14px"
           fontFamily="Helvetica"
         >
-          Livestock Disease (FAO)
+          Livestock Disease Shock
         </text>
       </switch>
     </a>
@@ -2658,7 +2660,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 120,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2715,7 +2717,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 100,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2772,7 +2774,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 110,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2829,7 +2831,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 108,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2887,7 +2889,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -2944,7 +2946,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -3001,7 +3003,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 50,
               whiteSpace: 'nowrap',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -3063,7 +3065,7 @@ const DecisionTreeHighReliability = () => (
               verticalAlign: 'top',
               width: 142,
               whiteSpace: 'normal',
-              wordWrap: 'normal',
+              overflowWrap: 'normal',
               textAlign: 'center',
             }}
           >
@@ -3091,6 +3093,70 @@ const DecisionTreeHighReliability = () => (
         </text>
       </switch>
     </a>
+    <a xlinkHref="/documentation/fsl/livelihoods/livestock/livestock-disease-fao/">
+      <rect
+        x={361}
+        y={631}
+        width={150}
+        height={60}
+        rx="4.2"
+        ry="4.2"
+        fill="#f08e81"
+      />
+      <switch transform="translate(364.5,645.5)">
+        <foreignObject
+          style={{ overflow: 'visible' }}
+          pointerEvents="all"
+          width={142}
+          height={30}
+          requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+        >
+          <div
+            xmlns="http://www.w3.org/1999/xhtml"
+            style={{
+              display: 'inline-block',
+              fontSize: 14,
+              fontFamily: 'Helvetica',
+              color: 'rgb(255, 255, 255)',
+              lineHeight: '1.2',
+              verticalAlign: 'top',
+              width: 142,
+              whiteSpace: 'normal',
+              overflowWrap: 'normal',
+              textAlign: 'center',
+            }}
+          >
+            <div
+              xmlns="http://www.w3.org/1999/xhtml"
+              style={{
+                display: 'inline-block',
+                textAlign: 'inherit',
+                textDecoration: 'inherit',
+              }}
+            >
+              Livestock Disease (FAO)
+            </div>
+          </div>
+        </foreignObject>
+        <text
+          x={71}
+          y={22}
+          fill="#FFF"
+          textAnchor="middle"
+          fontSize="14px"
+          fontFamily="Helvetica"
+        >
+          Livestock Disease (FAO)
+        </text>
+      </switch>
+    </a>
+    <path
+      d="M436 629v-6.5V603"
+      fill="none"
+      stroke="#e85642"
+      strokeWidth={3}
+      strokeMiterlimit={10}
+    />
   </svg>
 );
 
