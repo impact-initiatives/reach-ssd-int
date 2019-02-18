@@ -20,7 +20,7 @@ const updatedMessage = {
   duration: 0,
 };
 
-if ('serviceWorker' in navigator) {
+if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js').then(register => {
     if (navigator.serviceWorker.controller) {
       register.onupdatefound = () => {
