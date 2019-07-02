@@ -46,7 +46,6 @@ export const query = graphql`
       breadcrumbName3
       name
       title
-      reliability
       levelOfAnalysis
       sources
       timeliness

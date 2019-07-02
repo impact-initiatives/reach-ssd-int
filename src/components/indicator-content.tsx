@@ -7,10 +7,6 @@ const IndicatorContent = ({ html, node }) => (
     <h2>Metadata</h2>
     <ul>
       <li>
-        <b>Reliability Tree: </b>
-        {node.reliability}
-      </li>
-      <li>
         <b>Conceptual Indicator: </b>
         {node.breadcrumbName1 || 'N/A'}
       </li>

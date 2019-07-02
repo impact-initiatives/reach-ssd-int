@@ -44,19 +44,12 @@ export const query = graphql`
       breadcrumbName2
       name
       title
-      reliability
       description
-      requirementHigh
       requirementLow
-      emergencyHigh
       emergencyLow
-      alertHigh
       alertLow
-      warningHigh
       warningLow
-      stressedHigh
       stressedLow
-      notTriggeredHigh
       notTriggeredLow
     }
     markdownRemark(frontmatter: { path: { eq: $path } }) {
