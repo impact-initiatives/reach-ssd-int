@@ -1,0 +1,96 @@
+$navbar-breakpoint: 426px
+
+$footer-background-color: white
+$footer-padding: 3rem 1.5rem 1.5rem
+
+@import "~bulma/bulma.sass"
+
+html
+  overflow: auto
+
+.container
+  &.is-tablet
+    max-width: $tablet - (2 * $gap)
+
+// loading bar for service worker notifications
+.progress.is-primary.is-small.is-fixed-top:indeterminate
+  background-color: rgba(255,255,255,0)
+  background-image: linear-gradient(to right, $primary 30%, rgba(255,255,255,0) 30%)
+  border-radius: 0
+  height: 0.25rem
+  position: fixed
+  top: 0
+  z-index: 41
+
+// full-sized tableau maps
+.tableau-map-container
+  height: 100vh
+  width: 100%
+  max-width: 1200px
+  max-height: 900px
+  margin: auto
+
+// STYLES FOR DECISION TREE
+
+a[*|href^='/documentation/']:hover > rect
+  opacity: 0.5
+
+switch *
+  pointer-events: none
+
+.decision-tree-page a
+  &[*|href^='/documentation/']
+    opacity: 0.5
+  &[*|href='/documentation/']
+    opacity: 1
+
+.a a[*|href='/documentation/fsl/']
+  opacity: 1
+
+.a-1 a
+  &[*|href='/documentation/fsl/'], &[*|href='/documentation/fsl/food-access/']
+    opacity: 1
+
+.a-2 a
+  &[*|href='/documentation/fsl/'], &[*|href='/documentation/fsl/livelihoods/']
+    opacity: 1
+
+.a-2-a a
+  &[*|href='/documentation/fsl/'], &[*|href='/documentation/fsl/livelihoods/'], &[*|href='/documentation/fsl/livelihoods/agriculture/']
+    opacity: 1
+
+.a-2-b a
+  &[*|href='/documentation/fsl/'], &[*|href='/documentation/fsl/livelihoods/'], &[*|href='/documentation/fsl/livelihoods/livestock/']
+    opacity: 1
+
+.a-2-c a
+  &[*|href='/documentation/fsl/'], &[*|href='/documentation/fsl/livelihoods/'], &[*|href='/documentation/fsl/livelihoods/markets/']
+    opacity: 1
+
+.a-2-d a
+  &[*|href='/documentation/fsl/'], &[*|href='/documentation/fsl/livelihoods/'], &[*|href='/documentation/fsl/livelihoods/climate/']
+    opacity: 1
+
+.a-2-e a
+  &[*|href='/documentation/fsl/'], &[*|href='/documentation/fsl/livelihoods/'], &[*|href='/documentation/fsl/livelihoods/coping/']
+    opacity: 1
+
+.b a[*|href='/documentation/wash/'], .c a[*|href='/documentation/health/'], .d a[*|href='/documentation/nutrition/'], .e a[*|href='/documentation/mortality/']
+  opacity: 1
+
+.county-county a[*|href='/documentation/'], .a-fsl a[*|href='/documentation/fsl/'], .a-1-food-access a[*|href='/documentation/fsl/food-access/'], .a-1-hunger-severity-shock a[*|href='/documentation/fsl/food-access/hunger-severity-shock/'], .a-1-wild-foods-making-people-sick a[*|href='/documentation/fsl/food-access/wild-foods-making-people-sick/'], .a-1-wild-foods-in-main-meal a[*|href='/documentation/fsl/food-access/wild-foods-in-main-meal/'], .a-1-household-hunger-scale a[*|href='/documentation/fsl/food-access/household-hunger-scale/'], .a-1-food-consumption-score a[*|href='/documentation/fsl/food-access/food-consumption-score/'], .a-1-household-diet-diversity-score a[*|href='/documentation/fsl/food-access/household-diet-diversity-score/'], .a-1-inadequate-access-to-food a[*|href='/documentation/fsl/food-access/inadequate-access-to-food/'], .a-1-unsustainable-food-source a[*|href='/documentation/fsl/food-access/unsustainable-food-source/'], .a-2-livelihoods a[*|href='/documentation/fsl/livelihoods/'], .a-2-a-agriculture a[*|href='/documentation/fsl/livelihoods/agriculture/'], .a-2-a-access-to-land-inputs a[*|href='/documentation/fsl/livelihoods/agriculture/access-to-land-inputs/'], .a-2-a-fall-army-worm a[*|href='/documentation/fsl/livelihoods/agriculture/fall-army-worm/'], .a-2-a-crop-production a[*|href='/documentation/fsl/livelihoods/agriculture/crop-production/'], .a-2-b-livestock a[*|href='/documentation/fsl/livelihoods/livestock/'], .a-2-b-possession-of-livestock a[*|href='/documentation/fsl/livelihoods/livestock/possession-of-livestock/'], .a-2-b-access-to-livestock a[*|href='/documentation/fsl/livelihoods/livestock/access-to-livestock/'], .a-2-b-livestock-disease-shock a[*|href='/documentation/fsl/livelihoods/livestock/livestock-disease-shock/'], .a-2-b-livestock-disease-fao a[*|href='/documentation/fsl/livelihoods/livestock/livestock-disease-fao/'], .a-2-b-livestock-disease-aok a[*|href='/documentation/fsl/livelihoods/livestock/livestock-disease-aok/'], .a-2-c-markets a[*|href='/documentation/fsl/livelihoods/markets/'], .a-2-c-access-to-markets a[*|href='/documentation/fsl/livelihoods/markets/access-to-markets/'], .a-2-c-cereal-price-shock a[*|href='/documentation/fsl/livelihoods/markets/cereal-price-shock/'], .a-2-c-sorghum-prices a[*|href='/documentation/fsl/livelihoods/markets/sorghum-prices/'], .a-2-c-field-bean-prices a[*|href='/documentation/fsl/livelihoods/markets/field-bean-prices/'], .a-2-c-terms-of-trade-goat-to-sorghum a[*|href='/documentation/fsl/livelihoods/markets/terms-of-trade-goat-to-sorghum/'], .a-2-c-terms-of-trade-wage-to-sorghum a[*|href='/documentation/fsl/livelihoods/markets/terms-of-trade-wage-to-sorghum/'], .a-2-d-climate a[*|href='/documentation/fsl/livelihoods/climate/'], .a-2-d-live-green-vegetation-ndvi a[*|href='/documentation/fsl/livelihoods/climate/live-green-vegetation-ndvi/'], .a-2-d-rainfall a[*|href='/documentation/fsl/livelihoods/climate/rainfall/'], .a-2-e-coping a[*|href='/documentation/fsl/livelihoods/coping/'], .a-2-e-livelihood-coping-strategies a[*|href='/documentation/fsl/livelihoods/coping/livelihood-coping-strategies/'], .b-wash a[*|href='/documentation/wash/'], .b-clean-timely-water-household a[*|href='/documentation/wash/clean-timely-water-household/'], .b-clean-timely-water-settlement a[*|href='/documentation/wash/clean-timely-water-settlement/'], .b-open-defecation-household a[*|href='/documentation/wash/open-defecation-household/'], .b-open-defecation-settlement a[*|href='/documentation/wash/open-defecation-settlement/'], .b-rainfall a[*|href='/documentation/wash/rainfall/'], .b-acute-watery-diarrhoea a[*|href='/documentation/wash/acute-watery-diarrhoea/'], .b-cholera a[*|href='/documentation/wash/cholera/'], .b-malaria a[*|href='/documentation/wash/malaria/'], .c-health a[*|href='/documentation/health/'], .c-measles a[*|href='/documentation/health/measles/'], .c-ebola a[*|href='/documentation/health/ebola/'], .c-acute-watery-diarrhoea a[*|href='/documentation/health/acute-watery-diarrhoea/'], .c-cholera a[*|href='/documentation/health/cholera/'], .c-malaria a[*|href='/documentation/health/malaria/'], .d-nutrition a[*|href='/documentation/nutrition/'], .d-global-acute-malnutrition-whz a[*|href='/documentation/nutrition/global-acute-malnutrition-whz/'], .d-severe-acute-malnutrition-whz a[*|href='/documentation/nutrition/severe-acute-malnutrition-whz/'], .d-mid-upper-arm-circumference a[*|href='/documentation/nutrition/mid-upper-arm-circumference/'], .d-new-admissions-3-year a[*|href='/documentation/nutrition/new-admissions-3-year/'], .d-new-admissions-3-month a[*|href='/documentation/nutrition/new-admissions-3-month/'], .d-new-admissions-3-month-trend a[*|href='/documentation/nutrition/new-admissions-3-month-trend/']
+  &:hover > rect
+    opacity: 1
+  opacity: 1
+
+.d-new-admissions-per-site a[*|href='/documentation/nutrition/new-admissions-per-site/']
+  &:hover
+    > rect, > rect
+      opacity: 1
+  opacity: 1
+  opacity: 1
+
+.d-malnourished-children-elderly a[*|href='/documentation/nutrition/malnourished-children-elderly/'], .e-mortality a[*|href='/documentation/mortality/'], .e-crude-death-rate a[*|href='/documentation/mortality/crude-death-rate/'], .e-under-five-crude-death-rate a[*|href='/documentation/mortality/under-five-crude-death-rate/'], .e-mortality-increase a[*|href='/documentation/mortality/mortality-increase/']
+  &:hover > rect
+    opacity: 1
+  opacity: 1

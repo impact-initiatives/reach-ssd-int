@@ -1,2 +1,7 @@
-import wrapWithProvider from './src/utils/wrap-with-provider';
-export const wrapRootElement = wrapWithProvider;
+import React from 'react';
+
+import IsLoggedIn from './src/utils/is-logged-in';
+
+export const wrapRootElement = ({ element }) => (
+  <IsLoggedIn element={element} />
+);

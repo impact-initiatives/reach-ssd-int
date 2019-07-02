@@ -1,8 +1,7 @@
 import React from 'react';
-import { Table } from 'antd';
 
 const IndicatorContent = ({ html, node }) => (
-  <div>
+  <div className="content">
     <h1>{node.title}</h1>
     <div dangerouslySetInnerHTML={{ __html: html }} />
     <h2>Metadata</h2>
@@ -37,24 +36,36 @@ const IndicatorContent = ({ html, node }) => (
       </li>
     </ul>
     <h2>Thresholds</h2>
-    <Table
-      dataSource={[
-        { key: 'Emergency', value: node.emergency },
-        { key: 'Alert', value: node.alert },
-        { key: 'Warning', value: node.warning },
-        { key: 'Stressed', value: node.stressed },
-        { key: 'Not Triggered', value: node.notTriggered },
-      ]}
-      columns={[
-        { title: 'Classification', dataIndex: 'key', key: 'key' },
-        {
-          title: node.tableHeader,
-          dataIndex: 'value',
-          key: 'value',
-        },
-      ]}
-      pagination={false}
-    />
+    <table className="table is-striped is-hoverable">
+      <thead>
+        <tr>
+          <th>Risk of NAWG Trigger Present</th>
+          <th>{node.tableHeader}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Confirmed</td>
+          <td>{node.emergency}</td>
+        </tr>
+        <tr>
+          <td>Very High</td>
+          <td>{node.alert}</td>
+        </tr>
+        <tr>
+          <td>High</td>
+          <td>{node.warning}</td>
+        </tr>
+        <tr>
+          <td>Moderate</td>
+          <td>{node.stressed}</td>
+        </tr>
+        <tr>
+          <td>Low</td>
+          <td>{node.notTriggered}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 );
 

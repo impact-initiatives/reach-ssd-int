@@ -1,14 +1,11 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Layout } from 'antd';
 
 import PageHeader from '../components/page-header';
 import PageFooter from '../components/page-footer';
 import GroupingContent from '../components/grouping-content';
-import DecisionTree from '../components/decision-tree';
+import IntDiagram from '../images/int-diagram';
 import BreadcrumbNavigation from '../components/breadcrumb-navigation';
-
-const { Content } = Layout;
 
 const DocumentationPage = ({
   data: {
@@ -16,32 +13,25 @@ const DocumentationPage = ({
     markdownRemark: { html },
   },
 }) => (
-  <Layout style={{ background: '#fff' }}>
-    <PageHeader selected="documentation" />
-    <Layout style={{ background: '#fff' }}>
-      <Content
-        style={{
-          padding: '0 24px',
-          maxWidth: 992,
-          width: '100%',
-          margin: 'auto',
-        }}
-      >
+  <div>
+    <PageHeader tab="/documentation" />
+    <section className="section">
+      <div className="container">
         <div
-          className={`decision-tree-page ${node.className1} ${
-            node.className1
-          }-${node.className2}`}
+          className={`decision-tree-page ${node.className1} ${node.className1}-${node.className2}`}
         >
-          <DecisionTree />
+          <IntDiagram />
         </div>
-        <br />
-        <BreadcrumbNavigation node={node} />
-        <br />
-        <GroupingContent html={html} node={node} />
-      </Content>
-      <PageFooter />
-    </Layout>
-  </Layout>
+        <div className="container is-tablet">
+          <br />
+          <BreadcrumbNavigation node={node} />
+          <br />
+          <GroupingContent html={html} node={node} />
+        </div>
+      </div>
+    </section>
+    <PageFooter />
+  </div>
 );
 
 export const query = graphql`

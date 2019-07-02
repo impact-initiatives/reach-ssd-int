@@ -1,5 +1,3 @@
-import { message } from 'antd';
-
 const isBrowser = typeof window !== 'undefined';
 
 const getUser = () =>
@@ -18,7 +16,6 @@ export const handleLogin = ({ username, password }) => {
     });
     return window.location.replace('/');
   }
-  message.error('Login failed');
   return false;
 };
 

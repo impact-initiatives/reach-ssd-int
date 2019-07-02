@@ -9,6 +9,7 @@ The Household Hunger Scale (HHS) is unique in having been internationally develo
 1. Little to no household hunger
 2. Moderate household hunger
 3. Severe household hunger
+4. Conditions not met
 
 ## Rationale for inclusion in the INT
 

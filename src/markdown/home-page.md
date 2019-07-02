@@ -1,5 +1,5 @@
 ---
-path: "/"
+path: '/'
 ---
 
 ## 1. Overview
@@ -28,13 +28,13 @@ The INT system aims to provide the NAWG and key decision makers with a system th
 2. What is the current level of access to clean water, sanitation, and hygiene (WASH) services, to what degree are they utilised, and has there been water-borne related disease outbreaks that have affected the target area?
 3. What is the prevalence of core diseases in a specific county (Malaria, Cholera, Acute Watery Diaherra, Measles)?
 4. What is the prevalence of Global Acute Malnutrition (GAM)?
-5. What is the crude death rate? 
+5. What is the crude death rate?
 
 ## 5. Methodology
 
 ### Overview
 
-The INT system is based on lessons learned from the Somalia Early Warning system. Due to the difficulty of collecting regular data, the INT system is initially designed to be a real-time needs tracking system rather than to provide early warning. However, as the system grows and data sources improve, a second objective of the INT is to document and analyse long-term data to anticipate better and monitor deterioration and provide early warning guidance. The system draws on literature on Famine indicators and the interaction between the five conceptional indicators included (FSL, WASH, Health, Nutrition, and Mortality). The INT system is not expected to be used independently of further analysis or discussion to trigger a response, preferably to be included in the NAWG system for recommendations to the ICWG and HCT for response scale up. 
+The INT system is based on lessons learned from the Somalia Early Warning system. Due to the difficulty of collecting regular data, the INT system is initially designed to be a real-time needs tracking system rather than to provide early warning. However, as the system grows and data sources improve, a second objective of the INT is to document and analyse long-term data to anticipate better and monitor deterioration and provide early warning guidance. The system draws on literature on Famine indicators and the interaction between the five conceptional indicators included (FSL, WASH, Health, Nutrition, and Mortality). The INT system is not expected to be used independently of further analysis or discussion to trigger a response, preferably to be included in the NAWG system for recommendations to the ICWG and HCT for response scale up.
 
 ### The Integrated Needs Tracking System concept
 
