@@ -22,12 +22,10 @@ const DocumentationPage = ({
         >
           <IntDiagram />
         </div>
-        <div className="container is-tablet">
-          <br />
-          <BreadcrumbNavigation node={node} />
-          <br />
-          <IndicatorContent html={html} node={node} />
-        </div>
+        <br />
+        <BreadcrumbNavigation node={node} />
+        <br />
+        <IndicatorContent html={html} node={node} />
       </div>
     </section>
     <PageFooter />

@@ -24,9 +24,7 @@ const DocumentationPage = ({
       <div className="container">
         <h1 className="title has-text-centered">Integrated Needs Tracking</h1>
         <IntDiagram />
-        <div className="container is-tablet">
-          <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
-        </div>
+        <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </section>
     <PageFooter />
