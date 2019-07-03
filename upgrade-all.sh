@@ -34,7 +34,6 @@ yarn add --dev \
   eslint-plugin-jsx-a11y \
   eslint-plugin-react \
   eslint-plugin-react-hooks \
-  mini-css-extract-plugin \
   node-sass \
   prettier \
   typescript \

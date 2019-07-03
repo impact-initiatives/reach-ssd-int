@@ -1,14 +1,4 @@
 const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-
-exports.onCreateWebpackConfig = ({ actions, stage, getConfig }) => {
-  actions.setWebpackConfig({ plugins: [new MiniCssExtractPlugin({})] });
-  if (stage.includes('javascript')) {
-    let config = getConfig();
-    config.entry.styles = './src/styles/styles.sass';
-    actions.replaceWebpackConfig(config);
-  }
-};
 
 exports.createPages = ({ graphql, actions: { createPage } }) =>
   graphql(`

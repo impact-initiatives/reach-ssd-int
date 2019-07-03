@@ -5,8 +5,9 @@ export default function HTML(props) {
   let headComponents = props.headComponents;
   let css;
   if (process.env.NODE_ENV === 'production') {
+    const { props } = headComponents.find(e => e.type === 'style');
     headComponents = headComponents.filter(e => e.type !== 'style');
-    css = <link rel="stylesheet" href="/styles.css" />;
+    css = <link rel="stylesheet" href={props['data-href']} />;
   }
   return (
     <html {...props.htmlAttributes}>
