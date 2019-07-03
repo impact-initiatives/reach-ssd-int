@@ -40,10 +40,10 @@ const IndicatorContent = ({ html, node }) => (
         </tr>
       </thead>
       <tbody>
-        <tr>
+        {/* <tr>
           <td>Confirmed</td>
           <td>{node.emergency}</td>
-        </tr>
+        </tr> */}
         <tr>
           <td>Very High</td>
           <td>{node.alert}</td>

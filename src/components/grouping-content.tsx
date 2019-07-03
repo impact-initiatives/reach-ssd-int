@@ -4,7 +4,7 @@ const IndicatorContent = ({ html, node }) => (
   <div className="content">
     <h1>{node.name}</h1>
     <div dangerouslySetInnerHTML={{ __html: html }} />
-    <h2>Classification</h2>
+    <h2>Risk Classification</h2>
     <p>One of the following requirements must be met in order to classify:</p>
     {node.requirementLow ? (
       <ul>
