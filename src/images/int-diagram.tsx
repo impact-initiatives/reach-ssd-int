@@ -716,7 +716,7 @@ const IntDiagram = () => (
       </text>
     </switch>
   </a>
-  <a xlinkHref="/documentation/health/ari/">
+  <a xlinkHref="/documentation/health/acute-respiratory-infection/">
     <rect
       x={1081}
       y={451}

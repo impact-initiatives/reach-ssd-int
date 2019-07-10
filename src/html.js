@@ -6,8 +6,8 @@ export default function HTML(props) {
   let css;
   if (process.env.NODE_ENV === 'production') {
     const { props } = headComponents.find(e => e.type === 'style');
-    headComponents = headComponents.filter(e => e.type !== 'style');
     css = <link rel="stylesheet" href={props['data-href']} />;
+    headComponents = headComponents.filter(e => e.type !== 'style');
   }
   return (
     <html {...props.htmlAttributes}>
@@ -18,8 +18,8 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        {headComponents}
         {css}
+        {headComponents}
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

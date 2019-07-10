@@ -15,7 +15,6 @@ yarn add \
   gatsby-transformer-csv \
   gatsby-transformer-remark \
   gatsby-transformer-sharp \
-  graphql \
   react \
   react-dom \
   react-helmet \
@@ -23,18 +22,7 @@ yarn add \
 
 yarn add --dev \
   @babel/core \
-  @types/react-helmet \
-  @typescript-eslint/eslint-plugin \
-  @typescript-eslint/parser \
-  babel-eslint \
-  eslint@^5.x \
-  eslint-config-react-app \
-  eslint-plugin-flowtype@^2.x \
-  eslint-plugin-import \
-  eslint-plugin-jsx-a11y \
-  eslint-plugin-react \
-  eslint-plugin-react-hooks \
+  eslint \
   node-sass \
   prettier \
-  typescript \
   webpack
