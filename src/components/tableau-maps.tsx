@@ -1,24 +1,44 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useEffect } from 'react';
+import React from 'react';
+import Img from 'gatsby-image';
 
-declare global {
-  interface Window {
-    tableau: any;
-  }
-}
+const getImage = (images: any, name: string) =>
+  images.find(image => image.node.fluid.originalName === name);
 
-const componentDidMount = () => {
-  const options = { height: '100%', width: '100%' };
-  const vizUrl = 'https://public.tableau.com/views/REACH_SSD_INT_Jan2019/INT';
-  const containerDiv = document.getElementById('tableau-map');
-  import('../../static/tableau-2.2.2.min.js').then(() => {
-    new window.tableau.Viz(containerDiv, vizUrl, options);
-  });
-};
-
-const MapsPage = () => {
-  useEffect(componentDidMount, []);
-  return <div id="tableau-map" className="tableau-map-container" />;
+const MapsPage = ({ images }) => {
+  return (
+    <nav className="columns is-multiline">
+      <div
+        className="column"
+        style={{ display: 'flex', justifyContent: 'center' }}
+      >
+        <div className="card">
+          <a
+            className="card-image"
+            href="https://public.tableau.com/views/REACH_SSD_INT/INT?:showVizHome=no"
+          >
+            <Img
+              fluid={{
+                ...getImage(images, 'ssd-int.png').node.fluid,
+                aspectRatio: 4 / 3,
+              }}
+              alt="Placeholder image"
+            />
+          </a>
+          <div className="card-content">
+            <div className="media">
+              <div className="media-content">
+                <p className="title is-4">SSD INT</p>
+              </div>
+            </div>
+            <div className="content">
+              Model showing current needs across the key life saving clusters in
+              South Sudan.
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
 };
 
 export default MapsPage;

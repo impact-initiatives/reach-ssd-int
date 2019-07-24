@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#56585A',
         theme_color: '#56585A',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png',
+        icon: 'src/images/icon.svg',
       },
     },
     {
@@ -49,7 +49,6 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-netlify',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-react-svg',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
     'gatsby-plugin-typescript',
