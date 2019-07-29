@@ -3,11 +3,11 @@ yarn add \
   gatsby \
   gatsby-image \
   gatsby-plugin-catch-links \
+  gatsby-plugin-google-analytics \
   gatsby-plugin-manifest \
   gatsby-plugin-netlify \
   gatsby-plugin-offline \
   gatsby-plugin-react-helmet \
-  gatsby-plugin-react-svg \
   gatsby-plugin-sass \
   gatsby-plugin-sharp \
   gatsby-plugin-typescript \
@@ -25,4 +25,5 @@ yarn add --dev \
   eslint \
   node-sass \
   prettier \
+  typescript \
   webpack

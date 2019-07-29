@@ -7,6 +7,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'gatsby-starter-default',
@@ -43,7 +49,9 @@ module.exports = {
       resolve: 'gatsby-plugin-offline',
       options: {
         globPatterns: ['**/*.{js,css,html}', '**/*/page-data.json'],
+        globIgnores: ['idb-keyval-iife.min.js'],
         maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
+        offlineGoogleAnalytics: true,
       },
     },
     'gatsby-plugin-catch-links',
