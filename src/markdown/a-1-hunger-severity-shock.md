@@ -1,5 +1,5 @@
 ---
-path: "/documentation/fsl/food-access/hunger-severity-shock/"
+path: '/documentation/fsl/food-access/hunger-severity-shock/'
 ---
 
 ## Description

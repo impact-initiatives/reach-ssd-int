@@ -1,5 +1,5 @@
 ---
-path: '/documentation/wash/rainfall/'
+path: '/documentation/fsl/climate/rainfall/'
 ---
 
 ## Description

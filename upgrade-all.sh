@@ -22,7 +22,16 @@ yarn add \
 
 yarn add --dev \
   @babel/core \
+  @typescript-eslint/eslint-plugin \
+  @typescript-eslint/parser \
+  babel-eslint \
   eslint \
+  eslint-config-react-app \
+  eslint-plugin-flowtype@3.x \
+  eslint-plugin-import \
+  eslint-plugin-jsx-a11y \
+  eslint-plugin-react \
+  eslint-plugin-react-hooks@1.x \
   node-sass \
   prettier \
   typescript \

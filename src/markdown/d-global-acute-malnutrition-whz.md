@@ -1,5 +1,5 @@
 ---
-path: "/documentation/nutrition/global-acute-malnutrition-whz/"
+path: '/documentation/nutrition/global-acute-malnutrition/'
 ---
 
 ## Description

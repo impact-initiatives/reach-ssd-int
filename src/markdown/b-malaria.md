@@ -1,5 +1,5 @@
 ---
-path: "/documentation/wash/malaria/"
+path: '/documentation/wash/malaria/'
 ---
 
 ## Description

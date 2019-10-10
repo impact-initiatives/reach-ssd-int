@@ -1,5 +1,5 @@
 ---
-path: "/documentation/mortality/mortality-increase/"
+path: '/documentation/mortality/mortality-increase/'
 ---
 
 ## Description
@@ -12,4 +12,4 @@ CDR and U5CDR are collected on an ad-hoc basis, reducing its relevance for real-
 
 ## References
 
-1. [REACH Area of Knowledge tool](http://www.reachresourcecentre.info/system/files/resource-documents/reach_ssd_terms_of_references_assessment_of_hard_to_reach_areas_2_november_2018.pdf)
+1. [REACH Area of Knowledge tool](https://www.impact-repository.org/document/reach/de16db5a/reach_ssd_terms_of_references_assessment_of_hard_to_reach_areas_2_november_2018.pdf)

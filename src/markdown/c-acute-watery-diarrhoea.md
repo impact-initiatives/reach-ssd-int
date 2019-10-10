@@ -1,5 +1,5 @@
 ---
-path: "/documentation/health/acute-watery-diarrhoea/"
+path: '/documentation/health/acute-watery-diarrhoea/'
 ---
 
 ## Description

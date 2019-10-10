@@ -1,5 +1,5 @@
 ---
-path: "/documentation/health/cholera/"
+path: '/documentation/health/cholera/'
 ---
 
 ## Description

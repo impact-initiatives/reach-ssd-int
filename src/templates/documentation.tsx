@@ -40,21 +40,19 @@ export const query = graphql`
       className2
       breadcrumbPath1
       breadcrumbPath2
-      breadcrumbPath3
       breadcrumbName1
       breadcrumbName2
-      breadcrumbName3
       name
       title
       levelOfAnalysis
       sources
       timeliness
       tableHeader
-      emergency
-      alert
-      warning
-      stressed
-      notTriggered
+      level5
+      level4
+      level3
+      level2
+      level1
     }
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html

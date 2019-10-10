@@ -1,5 +1,5 @@
 ---
-path: "/documentation/health/measles/"
+path: '/documentation/health/measles/'
 ---
 
 ## Description

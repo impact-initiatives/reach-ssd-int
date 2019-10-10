@@ -1,5 +1,5 @@
 ---
-path: "/documentation/wash/cholera/"
+path: '/documentation/wash/cholera/'
 ---
 
 ## Description

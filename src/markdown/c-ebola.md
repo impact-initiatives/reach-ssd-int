@@ -1,5 +1,5 @@
 ---
-path: "/documentation/health/ebola/"
+path: '/documentation/health/ebola/'
 ---
 
 ## Description

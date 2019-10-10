@@ -10,28 +10,13 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
           }
         }
       }
-      allGroupingMatrixCsv {
-        edges {
-          node {
-            path
-          }
-        }
-      }
     }
   `).then(({ errors, data }) => {
-    if (errors) {
-      return Promise.reject(errors);
-    }
+    if (errors) return Promise.reject(errors);
     data.allDocumentationMatrixCsv.edges.forEach(({ node }) => {
       createPage({
         path: node.path,
         component: path.resolve('src/templates/documentation.tsx'),
-      });
-    });
-    data.allGroupingMatrixCsv.edges.forEach(({ node }) => {
-      createPage({
-        path: node.path,
-        component: path.resolve('src/templates/grouping.tsx'),
       });
     });
   });
