@@ -1,9 +1,9 @@
 import React from 'react';
 
 const SvgComponent = props => (
-  <svg viewBox="-0.5 -0.5 1593 792" {...props}>
+  <svg viewBox="-0.5 -0.5 1414 792" {...props}>
     <path
-      d="M1591 256H1"
+      d="M1411 256H1"
       fill="none"
       stroke="#000"
       strokeMiterlimit={10}
@@ -35,7 +35,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M436 153v6.5q0 6.5-10 6.5H266q-10 0-10 6.5v6.5"
+      d="M435.59 153.53v6.23q0 6.24-10 6.24h-160q-10 0-10 6.71v6.7"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -59,7 +59,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M1336 153v13-2.5V179"
+      d="M1335.59 153v26.41"
       fill="none"
       stroke="#12aab5"
       strokeWidth={3}
@@ -67,7 +67,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M976 449v-9-4-13M976 359v-9-4-13"
+      d="M975.59 449v-8.91-4.21V423M975.59 359v-9.21-3.91V333"
       fill="none"
       stroke="#1699d3"
       strokeWidth={3}
@@ -75,7 +75,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M1156 359v-9-4-13"
+      d="M1155.59 359v-9.21-3.91V333"
       fill="none"
       stroke="#f08705"
       strokeWidth={3}
@@ -83,15 +83,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M1516 153v116"
-      fill="none"
-      stroke="#b5739d"
-      strokeWidth={3}
-      strokeMiterlimit={10}
-      pointerEvents="none"
-    />
-    <path
-      d="M436 153v6.5q0 6.5-10 6.5H86q-10 0-10 6.5v6.5M76 243v13-2.5V269"
+      d="M435.59 153.53v6.23q0 6.24-10 6.24h-340q-10 0-10 6.71v6.7M75.59 243V255.88v-2.35V269"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -99,7 +91,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M1156 629v-9-4-13M1156 719v-9-4-13"
+      d="M1155.59 629v-8.91-4.21V603M1155.59 719v-9.21-3.91V693"
       fill="none"
       stroke="#f08705"
       strokeWidth={3}
@@ -107,7 +99,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M976 539v-9-4-13M976 629v-9-4-13M976 719v-9-4-13"
+      d="M975.59 539v-9.21-3.91V513M975.59 629v-8.91-4.21V603M975.59 719v-9.21-3.91V693"
       fill="none"
       stroke="#1699d3"
       strokeWidth={3}
@@ -115,7 +107,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M796 333v116M76 359v-6.5V333M616 449v-6.5V423M616 333v26M256 243v26"
+      d="M795.59 333v116M75.59 359v-6.5V333M615.59 449v-6.5V423M615.59 333.53h.2q.21 0 .21 10v7.94q0 7.94-.21 7.94h-.2M255.59 243v26"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -123,15 +115,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M796 63v6.5q0 6.5 10 6.5h700q10 0 10 6.5V89"
-      fill="none"
-      stroke="#b5739d"
-      strokeWidth={3}
-      strokeMiterlimit={10}
-      pointerEvents="none"
-    />
-    <path
-      d="M796 63v6.5q0 6.5 10 6.5h520q10 0 10 6.5V89"
+      d="M796 63v6.44q0 6.44 10 6.44h520q10 0 10 6.56V89"
       fill="none"
       stroke="#12aab5"
       strokeWidth={3}
@@ -139,7 +123,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M796 63v6.5q0 6.5 10 6.5h340q10 0 10 6.5V89"
+      d="M796 63v6.44q0 6.44 10 6.44h340q10 0 10 6.56V89"
       fill="none"
       stroke="#f08705"
       strokeWidth={3}
@@ -147,7 +131,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M796 63v6.5q0 6.5 10 6.5h160q10 0 10 6.5V89"
+      d="M796 63v6.44q0 6.44 10 6.44h160q10 0 10 6.56V89"
       fill="none"
       stroke="#1699d3"
       strokeWidth={3}
@@ -155,7 +139,7 @@ const SvgComponent = props => (
       pointerEvents="none"
     />
     <path
-      d="M616 243v26M796 243v26M796 63v6.5q0 6.5-10 6.5H446q-10 0-10 6.5V89"
+      d="M615.59 243v26M795.59 243v26M795.59 62.94v6.53q0 6.53-10 6.53H446q-10 0-10 6.5V89"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -177,7 +161,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={56}
           height={17}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -239,7 +223,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={46}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -303,7 +287,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={46}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -367,7 +351,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={46}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -432,7 +416,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={46}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -492,7 +476,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={98}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -554,7 +538,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={106}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -614,7 +598,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={42}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -679,7 +663,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -740,7 +724,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={36}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -801,7 +785,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={58}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -852,7 +836,7 @@ const SvgComponent = props => (
       </switch>
     </a>
     <path
-      d="M1336 269v-9-4-13"
+      d="M1335.59 269v-8.91-17.15"
       fill="none"
       stroke="#12aab5"
       strokeWidth={3}
@@ -873,7 +857,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -918,133 +902,8 @@ const SvgComponent = props => (
         </text>
       </switch>
     </a>
-    <a xlinkHref="/documentation/mortality/">
-      <rect
-        x={1441}
-        y={91}
-        width={150}
-        height={60}
-        rx={4.2}
-        ry={4.2}
-        fill="#b5739d"
-      />
-      <switch transform="translate(1486.5 105.5)">
-        <foreignObject
-          style={{
-            overflow: 'visible',
-          }}
-          pointerEvents="all"
-          width={58}
-          height={30}
-          requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
-        >
-          <div
-            xmlns="http://www.w3.org/1999/xhtml"
-            style={{
-              display: 'inline-block',
-              fontSize: 14,
-              fontFamily: 'Helvetica',
-              color: '#fff',
-              lineHeight: 1.2,
-              verticalAlign: 'top',
-              width: 60,
-              whiteSpace: 'nowrap',
-              overflowWrap: 'normal',
-              fontWeight: 700,
-              textAlign: 'center',
-            }}
-          >
-            <div
-              xmlns="http://www.w3.org/1999/xhtml"
-              style={{
-                display: 'inline-block',
-                textAlign: 'inherit',
-                textDecoration: 'inherit',
-                whiteSpace: 'normal',
-              }}
-            >
-              {'E'}
-              <br />
-              {'Mortality'}
-              <br />
-            </div>
-          </div>
-        </foreignObject>
-        <text
-          x={29}
-          y={22}
-          fill="#FFF"
-          textAnchor="middle"
-          fontSize={14}
-          fontFamily="Helvetica"
-          fontWeight="bold"
-        >
-          {'E&lt;br&gt;Mortality&lt;br&gt;'}
-        </text>
-      </switch>
-    </a>
-    <a xlinkHref="/documentation/mortality/mortality-increase/">
-      <rect
-        x={1441}
-        y={271}
-        width={150}
-        height={60}
-        rx={4.2}
-        ry={4.2}
-        fill="#cda2be"
-      />
-      <switch transform="translate(1460.5 293.5)">
-        <foreignObject
-          style={{
-            overflow: 'visible',
-          }}
-          pointerEvents="all"
-          width={110}
-          height={14}
-          requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
-        >
-          <div
-            xmlns="http://www.w3.org/1999/xhtml"
-            style={{
-              display: 'inline-block',
-              fontSize: 14,
-              fontFamily: 'Helvetica',
-              color: '#fff',
-              lineHeight: 1.2,
-              verticalAlign: 'top',
-              width: 112,
-              whiteSpace: 'nowrap',
-              overflowWrap: 'normal',
-              textAlign: 'center',
-            }}
-          >
-            <div
-              xmlns="http://www.w3.org/1999/xhtml"
-              style={{
-                display: 'inline-block',
-                textAlign: 'inherit',
-                textDecoration: 'inherit',
-                whiteSpace: 'normal',
-              }}
-            >
-              {'Mortality Increase'}
-            </div>
-          </div>
-        </foreignObject>
-        <text
-          x={55}
-          y={14}
-          fill="#FFF"
-          textAnchor="middle"
-          fontSize={14}
-          fontFamily="Helvetica"
-        >
-          {'Mortality Increase'}
-        </text>
-      </switch>
-    </a>
     <path
-      d="M436 179v-9-4-13"
+      d="M435.59 179v-9.21-16.26"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -1065,7 +924,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={64}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1129,7 +988,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={74}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1193,7 +1052,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={50}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1257,7 +1116,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1317,7 +1176,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1378,7 +1237,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={50}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1439,7 +1298,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={46}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1500,7 +1359,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1561,7 +1420,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={50}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1622,7 +1481,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={46}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1683,7 +1542,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={86}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1745,7 +1604,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={114}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1805,7 +1664,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={112}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1869,7 +1728,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={46}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1929,7 +1788,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -1975,7 +1834,7 @@ const SvgComponent = props => (
       </switch>
     </a>
     <path
-      d="M76 629v-9-4-13"
+      d="M75.59 629v-8.91-17.15"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -1996,7 +1855,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2056,7 +1915,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={100}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2116,7 +1975,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={110}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2162,7 +2021,7 @@ const SvgComponent = props => (
       </switch>
     </a>
     <path
-      d="M436 333v26M436 423v26M436 243v26"
+      d="M435.59 333v26M436 423v26M435.59 243v26"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -2183,7 +2042,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2243,7 +2102,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={104}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2303,7 +2162,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={112}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2349,7 +2208,7 @@ const SvgComponent = props => (
       </switch>
     </a>
     <path
-      d="M256 333v26"
+      d="M255.59 333.53V359"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -2370,7 +2229,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={102}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2416,7 +2275,7 @@ const SvgComponent = props => (
       </switch>
     </a>
     <path
-      d="M1156 449v-9-4-13"
+      d="M1155.59 449v-8.91-4.21V423"
       fill="none"
       stroke="#f08705"
       strokeWidth={3}
@@ -2437,7 +2296,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={52}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2484,14 +2343,14 @@ const SvgComponent = props => (
       </switch>
     </a>
     <path
-      d="M1156 513v13-2.5V539"
+      d="M1155.59 513V525.88v-2.64V539"
       fill="none"
       stroke="#f08705"
       strokeWidth={3}
       strokeMiterlimit={10}
     />
     <path
-      d="M539 121h-13-13"
+      d="M539 120.59H513.24"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -2512,7 +2371,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={142}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2572,7 +2431,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={72}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2620,7 +2479,7 @@ const SvgComponent = props => (
       </switch>
     </a>
     <path
-      d="M616 179v-6.5q0-6.5-10-6.5H446q-10 0-10-6.5V153"
+      d="M615.59 179v-6.26q0-6.27-10-6.27h-160q-10 0-10-6.47v-6.47"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -2641,7 +2500,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={52}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2691,7 +2550,7 @@ const SvgComponent = props => (
       </switch>
     </a>
     <path
-      d="M796 179v-6.5q0-6.5-10-6.5H446q-10 0-10-6.5V153M76 449v-9-4-13"
+      d="M795.59 179v-6.26q0-6.27-10-6.27h-340q-10 0-10-6.47v-6.47M75.59 449v-8.91-17.15"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -2712,7 +2571,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={128}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2758,7 +2617,7 @@ const SvgComponent = props => (
       </switch>
     </a>
     <path
-      d="M76 539v-9-4-13"
+      d="M75.59 539v-9.21-16.26"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -2779,7 +2638,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={92}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2808,7 +2667,7 @@ const SvgComponent = props => (
                 whiteSpace: 'normal',
               }}
             >
-              {'All Day'}
+              {'Going All Day'}
               <br />
               {'Without Eating'}
             </div>
@@ -2822,12 +2681,12 @@ const SvgComponent = props => (
           fontSize={14}
           fontFamily="Helvetica"
         >
-          {'All Day&lt;br&gt;Without Eating'}
+          {'Going All Day&lt;br&gt;Without Eating'}
         </text>
       </switch>
     </a>
     <path
-      d="M256 449v-9-4-13"
+      d="M255.59 449v-8.91-17.15"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -2848,7 +2707,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={100}
           height={14}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2894,7 +2753,7 @@ const SvgComponent = props => (
       </switch>
     </a>
     <path
-      d="M436 539v-9-4-13"
+      d="M435.59 539v-9.21-16.26"
       fill="none"
       stroke="#e85642"
       strokeWidth={3}
@@ -2915,7 +2774,7 @@ const SvgComponent = props => (
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={74}
           height={30}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -2964,7 +2823,7 @@ const SvgComponent = props => (
     </a>
     <a xlinkHref="/documentation/nawg/">
       <rect
-        x={901}
+        x={541}
         y={1}
         width={150}
         height={60}
@@ -2972,12 +2831,12 @@ const SvgComponent = props => (
         ry={4.2}
         fill="#748da3"
       />
-      <switch transform="translate(930.5 22.5)">
+      <switch transform="translate(570.5 22.5)">
         <foreignObject
           style={{
             overflow: 'visible',
           }}
-          pointerEvents="all"
+          pointerEvents="none"
           width={90}
           height={17}
           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
@@ -3037,7 +2896,7 @@ const SvgComponent = props => (
       </switch>
     </a>
     <path
-      d="M873 31h26"
+      d="M719 31.18h-26"
       fill="none"
       stroke="#2d5c7d"
       strokeWidth={3}
