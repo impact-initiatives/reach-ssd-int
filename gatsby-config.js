@@ -48,10 +48,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-offline',
       options: {
-        globPatterns: ['**/*.{js,css,html}', '**/*/page-data.json'],
-        globIgnores: ['idb-keyval-iife.min.js'],
-        maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
-        offlineGoogleAnalytics: true,
+        workboxConfig: {
+          offlineGoogleAnalytics: true,
+        },
       },
     },
     'gatsby-plugin-catch-links',
