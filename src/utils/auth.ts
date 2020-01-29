@@ -9,11 +9,11 @@ const setUser = user => (window.localStorage.gatsbyUser = JSON.stringify(user));
 
 export const handleLogin = ({ username, password }) => {
   if (!isBrowser) return false;
-  if (username === 'reach-ssd' && password === 'ssd-reach') {
-    setUser({
-      username: 'reach-ssd',
-      password: 'ssd-reach',
-    });
+  if (
+    username === process.env.GATSBY_USERNAME &&
+    password === process.env.GATSBY_PASSWORD
+  ) {
+    setUser({ username, password });
     return window.location.replace('/');
   }
   return false;
