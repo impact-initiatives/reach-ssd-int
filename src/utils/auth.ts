@@ -1,4 +1,5 @@
 const isBrowser = typeof window !== 'undefined';
+const isLocalhost = window.location.host === 'localhost';
 
 const getUser = () =>
   window.localStorage.gatsbyUser
@@ -21,8 +22,12 @@ export const handleLogin = ({ username, password }) => {
 
 export const isLoggedIn = () => {
   if (!isBrowser) return false;
+  if (isLocalhost) return true;
   const user = getUser();
-  return Boolean(user.username) && Boolean(user.password);
+  return (
+    user.username === process.env.GATSBY_USERNAME &&
+    user.password === process.env.GATSBY_PASSWORD
+  );
 };
 
 export const logout = () => {
